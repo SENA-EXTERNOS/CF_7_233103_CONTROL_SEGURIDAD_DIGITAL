@@ -2,18 +2,285 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 18%
+    right: 42%
   &-2
-    animation: float1 2.8s ease-in-out infinite alternate
+    animation: float2 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: -2%
+    right: 7%
+  &-3
+    animation: float4 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 4%
+    right: 66%  
+  &-4
+    width: 41px
+    animation: rotation 4s infinite linear
+    position: absolute
+    bottom: 46%
+    left: 84%
+    z-index: -1
+  &-5
+    animation: float3 3.5s ease-in-out infinite alternate
+    position: absolute
+    top: 40%
+    right: 13%    
+
+.banner-principal__img
+  z-index: 1
 
 
 @keyframes float1
+  0%
+    transform: translateX(20px)
+
+  100%
+    transform: translateX(0px)
+
+@keyframes float2    
   0%
     transform: translateY(20px)
 
   100%
     transform: translateY(0px)
+
+@-webkit-keyframes rotation 
+  from 
+    -webkit-transform: rotate(0deg)  
+  to 
+    -webkit-transform: rotate(359deg)
+
+@keyframes float3
+  0%
+    transform: translateX(0px)
+
+  100%
+    transform: translateX(15px)
+
+@keyframes float4    
+  0%
+    transform: translateY(20px)
+
+  100%
+    transform: translateY(0px) 
+
+// Introduccion
+
+.bloque-texto-b.color-primario-intro:before 
+  background-color: #DADEEC
+  height: 53%
+  width: 71%
+  margin-left: -9%
+  margin-top: -1%          
+
+.imagen-decorativa-1
+  animation: float2 2.5s ease-in-out infinite alternate
+  position: absolute
+  top: 20rem
+  right: 59%
+  width: 35%    
+
+.bloque-texto-b.color-primario-intro2:before 
+  background-color: #DADEEC
+  height: 35%
+  width: 76%
+  margin-left: -19%
+  margin-top: -2%   
+
+// Tema 1
+
+.bloque-text-1
+  margin-right: 45%  
+.bloque-img-1
+  margin-left: 50% 
+
+.linea-tiempo-d.color-acento-botones .linea-tiempo-d__item--selected .linea-tiempo-d__item__number 
+  background-color: #FC502D
+  color: #FFFFFF
+
+.fa-check:before 
+  content: "\f00c"
+  color: #FC502D
+
+.color1-tabla
+  background-color: #D3D3D3    
+  text-align: center
+.texto-tabla
+  text-align: center
+
+.cajon-texto
+  width: 91%
+  margin-left: 3%
+.cajon-color
+  background-color: #EAECF4
+
+.imagen-decorativa-2
+  animation: float2 2.5s ease-in-out infinite alternate
+  position: absolute
+  top: 289rem
+  right: 78%
+  width: 11% 
+
+.clr--gray
+  background-color: #F2F2F2   
+  
+.crd_hover_txt
+  position: relative  
+  padding: 0 !important
+  overflow: hidden !important  
+  &:hover    
+    .crd_hover_txt--body   
+      transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1) 
+      transform: translateY(0)
+      width: 100%
+      height: 100%
+      text-align: center
+
+  .crd_hover_txt--body
+    position: absolute
+    padding: 1.5rem
+    bottom: 0    
+    transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
+    transform: translateY(calc( 100% - 3.85rem ))
+    background-color: #FEC2B5
+    width: 100%
+    height: 100%
+    text-align: center
+
+  .crd_hover_txt--body
+      p
+        font-size: 0.85em
+        color: black
+      h4
+        color: black
+
+.pasos-verticale
+  background-color: #F2F4F9  
+
+.tabs-a__tab 
+  display: block
+  width: 100%
+  text-align: left
+  background-color: #D3D3D3
+  padding: 15px 20px
+  border-radius: 5px
+  color: #111e61
+  line-height: 1.2em
+
+.tarjeta-tarjeta--azul
+  background-color: #AAB2D3
+
+.tarjeta.acordeonA
+  background-color: #FFFFFF
+
+.acordion__accion__btn--a
+  background-color: #FFFFFF !important
+
+.acordion__activo
+  background-color: #DADEEC !important  
+
+// Tema 2   
+
+.imagen-decorativa-3
+  animation: float2 2.5s ease-in-out infinite alternate
+  position: absolute
+  top: 10rem
+  right: 5%
+  width: 30% 
+
+.imagen-decorativa-4
+  animation: float2 2.5s ease-in-out infinite alternate
+  position: absolute
+  top: 24rem
+  right: 82%
+  width: 10%
+
+.bloque-text-2
+  margin-right: 45%  
+.bloque-img-2
+  margin-left: 50%  
+
+// Tema 3 
+
+.img-infografica.color-primario .img-infografica__item__dot:before, .img-infografica.color-primario .img-infografica__item__dot:after, .img-infografica.color-primario .img-infografica-b__item__dot:before, .img-infografica.color-primario .img-infografica-b__item__dot:after, .img-infografica-b.color-primario .img-infografica__item__dot:before, .img-infografica-b.color-primario .img-infografica__item__dot:after, .img-infografica-b.color-primario .img-infografica-b__item__dot:before, .img-infografica-b.color-primario .img-infografica-b__item__dot:after 
+  background-color: #0d23800f
+    
+.crd--avatarHorizontal
+  position: relative
+  padding-right: 12rem
+  & > *
+    position: relative
+  h5 
+    color: #FFFFFF
+  p 
+    margin-bottom: 0
+  &::before  
+    position: absolute 
+    content: ''
+    top: 0
+    right: 0
+    width: calc( 100% - 60px)
+    height: 100%
+    background-color: #0D2380
+
+  @media (max-width: 1000px)
+    padding-right: 2rem
+
+.crd--first, .crd--last
+  &::before 
+    background-color: #0D2380 !important
+
+.crd--first
+  &::before 
+    border-top-left-radius: 30px
+.crd--last
+  &::before 
+    border-bottom-left-radius: 30px
+  
+.tarjeta--azul 
+    background-image: url(../assets/curso/temas/tema3/img10_tema3.svg)
+
+.table1
+  -webkit-column-span: 3
+
+.parraf
+  margin-left: 10%
+
+.imagen-decorativa-5
+  animation: float2 2.5s ease-in-out infinite alternate
+  position: absolute
+  top: 153rem
+  right: 66%
+  width: 26%   
+
+.imagen-decorativa-6
+  animation: float2 2.5s ease-in-out infinite alternate
+  position: absolute
+  top: 362rem
+  right: 77%
+  width: 10%
+
+.imagen-decorativa-7
+  animation: float2 2.5s ease-in-out infinite alternate
+  position: absolute
+  top: 419rem
+  right: 73%
+  width: 15%   
+
+.imagen-decorativa-8
+  animation: float2 2.5s ease-in-out infinite alternate
+  position: absolute
+  top: 494rem
+  right: 61%
+  width: 27% 
+
+.imagen-decorativa-9
+  position: absolute
+  top: 170rem
+  right: 83%
+  width: 9% 
+
+.text-f
+  color: #0D2380
+          
