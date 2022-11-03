@@ -13,7 +13,8 @@
           .bloque-texto-b__texto
             p.mt-5 El monitoreo continuo de los equipos que hacen parte de la red de seguridad de la información sigue unos protocolos o procedimientos descritos en la normatividad ISO 27000. Estos deben ser establecidos o personalizados de acuerdo al tipo y necesidad de la empresa. Trae consigo la operación de herramientas que protegen y controlan los activos, así como de aquellas que vigilan y gestionan los incidentes que se puedan presentar.
       .col-lg-4
-        img(src='@/assets/curso/temas/tema2/img1_tema2.svg', alt='Texto que describa la imagen').imagen-decorativa-3  
+        figure
+          img(src='@/assets/curso/temas/tema2/img1_tema2.svg', alt='Texto que describa la imagen').imagen-decorativa-3  
                  
     .row.justify-content-around.align-items-center.mt-3
       .col-lg-2
@@ -120,12 +121,13 @@
     #t_2_2.titulo-segundo.color-acento-contenido
       h2 2.2  Herramientas de monitoreo y gestión
 
-    .row
-      .col-lg-12
+
+    .row.justify-content-center
+      .col-lg-11
         .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
-          .bloque-texto-g__img.bloque-img-2(
+          .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/temas/tema2/img7_tema2.png')})`}")
-          .bloque-texto-g__texto.bloque-text-2.p-4
+          .bloque-texto-g__texto.p-4
             p.mb-0 En el génesis de la era digital los ataques cibernéticos eran técnicamente poco sofisticados, pero con el paso del tiempo, se han desarrollado métodos más complejos, que buscan ‘agujeros negros’ en los sistemas operativos. Estos existen en todos y hacen referencia a errores en la configuración. Para que un sistema esté completamente protegido, requiere de la implementación y buen uso de una mezcla de diversas herramientas existentes en el mercado, ya que no existe ninguna que proteja al 100%.
 
     .row.mt-5

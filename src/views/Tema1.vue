@@ -10,10 +10,10 @@
     .row.justify-content-center
       .col-lg-11
         .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mt-5
-          .bloque-texto-g__img.bloque-img-1(
+          .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img1_tema1.png')})`}"
           )
-          .bloque-texto-g__texto.bloque-text-1.p-4
+          .bloque-texto-g__texto.p-4
               p.mt-3 El Internet y la masificación del uso de las Tecnologías de la Información y las Comunicaciones (TIC) ha incrementado los usuarios digitales en todos los sectores de la economía; cada vez se puede observar personas de diferentes edades haciendo uso de los medios digitales para comprar o vender productos, adquirir servicios o, simplemente, realizar transacciones bancarias, lo que conlleva a que puedan estar expuestas a eventuales fraudes, suplantación de identidad o robos de información.
     
     .row.mt-5
@@ -96,12 +96,12 @@
             caption <p> <em>Ref. Creación propia del experto temático con ajustes del Diseñador instruccional </em></p>
             thead
               tr.color1-tabla
-                th Herramientas
-                th Tipo
-                th <em>Link</em> de acesso al manual
+                td <b>Herramientas</b>
+                td <b>Tipo</b>
+                td <b><em>Link</em> de acesso al manual</b>
 
             tbody.texto-tabla
-              tr.text-small
+              tr
                 td Llaves U2F
                 td <em>Hardware</em>
                 td
@@ -109,8 +109,8 @@
                     .anexo__icono
                       img(src="@/assets/template/icono-link.svg")
                     .anexo__texto
-                      p.text-small <b>Enlace Web.</b> https://manuals.plus/es/feitian/epass-fido-nfc-multipass-security-key-manual#user_manual 
-              tr.text-small
+                      p.text-small <b>Enlace Web.</b> https://manuals.plus/es/feitian/-nfc-multipass-security-key-manual#user_manual 
+              tr
                 td <em>Firewall</em> por <em>hardware</em>
                 td <em>Hardware</em>
                 td
@@ -118,8 +118,9 @@
                     .anexo__icono
                       img(src="@/assets/template/icono-link.svg")
                     .anexo__texto
-                      p.text-small <b>Enlace Web.</b> https://www.manualpdf.es/cisco/mx67w/manual          
-              tr.text-small
+                      p.text-small <b>Enlace Web.</b> https://www.manualpdf.es/cisco  
+                      p.text.small /mx67w/manual        
+              tr
                 td <em>Router</em> VPN - VPN <em>Box</em>
                 td <em>Hardware</em>
                 td 
@@ -127,8 +128,9 @@
                     .anexo__icono
                       img(src="@/assets/template/icono-link.svg")
                     .anexo__texto
-                      p.text-small <b>Enlace Web.</b> http://downloads.trendnet.com/TW100-BRV214/manual/SP_Web_TW100-BRV214(1.01).pdf 
-              tr.text-small
+                      p.text-small <b>Enlace Web.</b> http://downloads.trendnet.com/
+                      p.text-small TW100-BRV214/manual/SP_Web_TW100-BRV214(1.01).pdf 
+              tr
                 td <em>hardware</em> de cifrado
                 td <em>Hardware</em>
                 td 
@@ -136,8 +138,10 @@
                     .anexo__icono
                       img(src="@/assets/template/icono-link.svg")
                     .anexo__texto
-                      p.text-small <b>Enlace Web.</b> https://www.kingston.com/datasheets/kc600_es.pdf  
-              tr.text-small
+                      p.text-small <b>Enlace Web.</b> https://www.kingston.com/
+                      p.text-small datasheets/kc600_es
+                      p.text-small _es.pdf 
+              tr
                 td <em>Tokens</em> PKI
                 td <em>Hardware</em>
                 td 
@@ -145,8 +149,10 @@
                     .anexo__icono
                       img(src="@/assets/template/icono-link.svg")
                     .anexo__texto
-                      p.text-small <b>Enlace Web.</b> https://descargas/Manual%20de%20Administracion%20de%20Token%20ME.pdf                                
-              tr.text-small
+                      p.text-small <b>Enlace Web.</b> https://descargas/Manual%20
+                      p.text-small de%20Administracion
+                      p.text-small de%20Token%20ME.pdf                                
+              tr
                 td Acelerador SSL/TLS
                 td <em>Hardware</em>
                 td 
@@ -155,7 +161,7 @@
                       img(src="@/assets/template/icono-link.svg")
                     .anexo__texto
                       p.text-small <b>Enlace Web.</b> hhttps://www.g-sec.lu/sslaudit/documentation.pdf
-              tr.text-small
+              tr
                 td Sistema de pago seguro
                 td <em>Hardware</em>
                 td 
@@ -163,8 +169,10 @@
                     .anexo__icono
                       img(src="@/assets/template/icono-link.svg")
                     .anexo__texto
-                      p.text-small <b>Enlace Web.</b> https://www.banrep.gov.co/sites/default/files/reglamentacion/dsp_158.pdf
-              tr.text-small
+                      p.text-small <b>Enlace Web.</b> https://www.banrep.gov.co/sites/
+                      p.text.small default/files/reglamentacion
+                      p.text.small /dsp_158158.pdf
+              tr
                 td Cartera digital
                 td <em>Hardware</em>
                 td 
@@ -172,8 +180,10 @@
                     .anexo__icono
                       img(src="@/assets/template/icono-link.svg")
                     .anexo__texto
-                      p.text-small <b>Enlace Web.</b> https://www.gov.co/files/Manual%20de%20Usuario_Servicio_CCD_V1.0.2.pdf
-              tr.text-small
+                      p.text-small <b>Enlace Web.</b> https://www.gov.co/files/
+                      p.text-small Manual%20de%20Usuario_Ser
+                      p.text-small vicio_CCD_V1
+              tr
                 td Sensores biométricos
                 td <em>Hardware</em>
                 td 
@@ -182,7 +192,7 @@
                       img(src="@/assets/template/icono-link.svg")
                     .anexo__texto
                       p.text-small <b>Enlace Web.</b> https://www.solomon.cl/wp-content/uploads/2019/11/Manual-FPT-153.pdf
-              tr.text-small
+              tr
                 td Candado 
                 td <em>Hardware</em>
                 td 
@@ -190,8 +200,9 @@
                     .anexo__icono
                       img(src="@/assets/template/icono-link.svg")
                     .anexo__texto
-                      p.text-small <b>Enlace Web.</b> https://www.manuales.com.co/kensington/combination-laptop-lock/manual
-              tr.text-small
+                      p.text-small <b>Enlace Web.</b> https://www.manuales.com.co/
+                      p.text-small kensington/combination-laptop-lock
+              tr
                 td Antivirus 
                 td <em>Software</em>
                 td 
@@ -199,8 +210,10 @@
                     .anexo__icono
                       img(src="@/assets/template/icono-link.svg")
                     .anexo__texto
-                      p.text-small <b>Enlace Web.</b> https://support.kaspersky.com/KESWin/11/es-ES/KESWin-11-es-ES.pdf
-              tr.text-small
+                      p.text-small <b>Enlace Web.</b> https://support.kaspersky.com/
+                      p.text-small /KESWin11/es-ES/KESWin
+                      p.text-small -11-es-ES.pdf
+              tr
                 td <em>Firewall</em> 
                 td <em>Software</em>
                 td 
@@ -208,8 +221,11 @@
                     .anexo__icono
                       img(src="@/assets/template/icono-link.svg")
                     .anexo__texto
-                      p.text-small <b>Enlace Web.</b> https://www.academia.edu/22360402/Manual_de_Usuario_de_Pfsense_Firewall
-              tr.text-small
+                      p.text-small <b>Enlace Web.</b> https://www.academia.edu/
+                      p.text-small 22360402/Manual_de
+                      p.text-small _Usuario_de_Pfse
+                      p.text-small nse_Firewal
+              tr
                 td <em>Proxy</em> 
                 td <em>Software</em>
                 td 
@@ -217,8 +233,10 @@
                     .anexo__icono
                       img(src="@/assets/template/icono-link.svg")
                     .anexo__texto
-                      p.text-small <b>Enlace Web.</b> https://mestreacasa.gva.es/c/document_library/get_file?folderId=500017506371&name=DLFE-1398307.pdf
-              tr.text-small
+                      p.text-small <b>Enlace Web.</b> https://mestreacasa.gva.es/c/
+                      p.text-small document_library/get_file?fol
+                      p.text-small 17506371&name=DLF
+              tr
                 td <em>MDR – Managed Detection and Response</em> 
                 td <em>Software</em>
                 td 
@@ -226,8 +244,10 @@
                     .anexo__icono
                       img(src="@/assets/template/icono-link.svg")
                     .anexo__texto
-                      p.text-small <b>Enlace Web.</b> https://www.ciosummits.com/The_Definitive_Guide_to_Managed_Detection_and_Response_MDR.pdf
-              tr.text-small
+                      p.text-small <b>Enlace Web.</b> https://www.ciosummits.com/The_
+                      p.text.small Definitive_Guide_to_Managed_
+                      p.text-small Detection_and_Response_MDR.pdf
+              tr
                 td <em>Pentesting</em> 
                 td <em>Software</em>
                 td 
@@ -235,8 +255,13 @@
                     .anexo__icono
                       img(src="@/assets/template/icono-link.svg")
                     .anexo__texto
-                      p.text-small <b>Enlace Web.</b> https://www.researchgate.net/publication/341255054_GUIA_PRACTICA_PARA_PRUEBAS_DE_PENTEST_BASADA_EN_LA_METODOLOGIA_OSSTMM_V21_Y_LA_GUIA_OWASP_V30
-              tr.text-small
+                      p.text-small <b>Enlace Web.</b> https://www.researchgate.net/
+                      p.text-small publication/341255054_
+                      p.text-small GUIA_PRACTICA_PARA_PRU
+                      p.text-small EBAS_DE_PENTEST_BASA
+                      p.text-small DA_EN_LA_METODOLOGI
+                      p.text-small A_OSSTMM
+              tr
                 td Formación del personal 
                 td NA
                 td 
@@ -244,7 +269,9 @@
                     .anexo__icono
                       img(src="@/assets/template/icono-link.svg")
                     .anexo__texto
-                      p.text-small <b>Enlace Web.</b> https://www.oas.org/es/sms/cicte/2016%20Buenas%20Practicas%20CSIRT.pdf
+                      p.text-small <b>Enlace Web.</b> https://www.oas.org/es/sms/cicte
+                      p.text.small /2016%20Buenas%20
+                      p.text.small Practicas%20CSIRT.pdf
 
     .row.cajon-texto.mt-5
       .tarjeta.cajon-color.p-3.mb-5
@@ -260,24 +287,25 @@
     #t_1_2.titulo-segundo.color-acento-contenido
       h2 1.2  Configuración básica de equipos
 
-
-    .row
-      .col-lg-3
-        figure
-        img(src="@/assets/curso/temas/tema1/img7_tema1.svg", alt="alt").imagen-decorativa-2 
-      .col-lg-9
-          p  Los activos de información en una entidad deben ser preservados, y para ello se requiere de protección, ya sea con buenas prácticas de administración o mediante equipos que impidan el acceso no autorizado de usuarios a los repositorios de los mismos. Teniendo en cuenta lo anterior, a continuación, se describe paso a paso la configuración de algunos de los equipos más usados para la protección de los sistemas en las entidades.
+    .row.justify-content-around.align-items-center.mt-5.mb-5
+      .row.justify-content-around.align-items-center
+        .col-7.col-lg-3
+          figure
+            img(src="@/assets/curso/temas/tema1/img7_tema1.svg", alt="alt").imagen-decorativa-2 
+        .col-lg-9
+            p  Los activos de información en una entidad deben ser preservados, y para ello se requiere de protección, ya sea con buenas prácticas de administración o mediante equipos que impidan el acceso no autorizado de usuarios a los repositorios de los mismos. Teniendo en cuenta lo anterior, a continuación, se describe paso a paso la configuración de algunos de los equipos más usados para la protección de los sistemas en las entidades.
 
     .row.mt-5
       .col-lg-12
         p <b>Llaves U2F</b>
         p.mt-5 Para el uso del <em>token</em> o llave U2F es necesario realizar dos registros y seguir estos pasos:  
+   
     
     .row.justify-content-center.mb-4
       .col-lg-12
         .crd.clr--gray.brd--rad.p-4
           PasosB.color-acento-botones
-            .row.justify-content-center(titulo="Paso 1").pt-3
+            .row.justify-content-center(titulo="").pt-3
               .col-lg-9.mb-4.mb-lg-0
                 h5 1er. Registro 
                 p.mt-3 Verificación en Google
@@ -302,7 +330,7 @@
                 figure
                   img(src='@/assets/curso/temas/tema1/img8_tema1.svg', alt='')
 
-            .row.justify-content-center(titulo="Paso 2").pt-3
+            .row.justify-content-center(titulo="").pt-3
               .col-lg-9.mb-4.mb-lg-0
                 h5 2do. Registro
                 p.mt-3 Programa de protección avanzada de Google
@@ -336,7 +364,7 @@
               .col-lg-3.col-6
                 figure
                   img(src='@/assets/curso/temas/tema1/img9_tema1.svg', alt='') 
-
+   
     .row.mt-5
       .col-lg-12
         p <b>Acelerador SSL/TLS</b>
@@ -352,6 +380,7 @@
           .crd_hover_txt--body
             h4.mb-3 1- <em>Scan</em>
             p.mb-0 Ingrese al <em>host</em> que va a escanear y el puerto apropiado.
+
 
       .col-xl-3.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
         .crd_hover_txt(data-aos="flip-left")

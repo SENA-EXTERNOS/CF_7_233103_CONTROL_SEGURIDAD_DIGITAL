@@ -18,7 +18,8 @@
       
     .row.justify-content-around.align-items-center.mt-3
       .col-lg-5
-        img(src='@/assets/curso/temas/introduccion/img1_introduccion.svg', alt='Texto que describa la imagen').imagen-decorativa-1  
+        figure
+          img(src='@/assets/curso/temas/introduccion/img1_introduccion.svg', alt='Texto que describa la imagen').imagen-decorativa-1  
       .col-lg-7
           p.mt-5 Lo mencionado es necesario para implementar y controlar las prácticas de seguridad digital en las organizaciones con apoyo de herramientas que logren minimizar los efectos de los incidentes. Las instituciones en la actualidad están expuestas a vulnerabilidades que pueden ocasionar pérdida de información, daños en equipos de la red o suplantación, lo cual puede generar desconfianza, mal funcionamiento o cierre de la entidad. No se puede asegurar que existe una empresa en el mundo con todos sus procesos completamente protegidos. 
 

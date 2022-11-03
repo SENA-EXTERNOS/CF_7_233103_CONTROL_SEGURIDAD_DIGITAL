@@ -76,10 +76,18 @@
 
 .imagen-decorativa-1
   animation: float2 2.5s ease-in-out infinite alternate
-  position: absolute
-  top: 20rem
-  right: 59%
-  width: 35%    
+  position: relative
+  top: 0rem
+  left: 16%
+  width: 77%
+
+@media (max-width: 500px)   
+  .imagen-decorativa-1
+    animation: float2 2.5s ease-in-out infinite alternate
+    position: relative
+    top: 0rem
+    left: 0%
+    width: 77%   
 
 .bloque-texto-b.color-primario-intro2:before 
   background-color: #DADEEC
@@ -94,6 +102,9 @@
   margin-right: 45%  
 .bloque-img-1
   margin-left: 50% 
+
+.tarjeta--gris 
+    background-color: #DADEEC
 
 .linea-tiempo-d.color-acento-botones .linea-tiempo-d__item--selected .linea-tiempo-d__item__number 
   background-color: #FC502D
@@ -117,13 +128,41 @@
 
 .imagen-decorativa-2
   animation: float2 2.5s ease-in-out infinite alternate
-  position: absolute
-  top: 289rem
-  right: 78%
-  width: 11% 
+  position: relative
+  top: -2rem
+  left: 37%
+  width: 43% 
+
+@media (max-width: 600px)   
+  .imagen-decorativa-2
+    animation: float2 2.5s ease-in-out infinite alternate
+    position: relative
+    top: -2rem
+    right: 0%
+    width: 43% 
+
+.pasos-b.color-acento-botones .pasos-b__header__item--active .pasos-b__header__item__dot span 
+    color: #FFFFFF
+
+.pasos-b__header__item--before .pasos-b__header__item__dot 
+  border-color: #0D2380
+  background-color: #0D2380
+
+.pasos-b__header__item--before .pasos-b__header__item__line-container:before, .pasos-b__header__item--before .pasos-b__header__item__line-container:after 
+  background-color: #0D2380
+
+.pasos-b__header__item--active .pasos-b__header__item__line-container:before 
+  background-color: #0D2380
+
+
+.hr--line
+  margin: 1rem 0
+  width: 100%
+  height: 1px  
+  background-color: #0D2380
 
 .clr--gray
-  background-color: #F2F2F2   
+  background-image: url(../assets/curso/temas/tema1/img23_tema1.svg)   
   
 .crd_hover_txt
   position: relative  
@@ -139,10 +178,10 @@
 
   .crd_hover_txt--body
     position: absolute
-    padding: 1.5rem
+    padding: 3.5rem
     bottom: 0    
     transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
-    transform: translateY(calc( 100% - 3.85rem ))
+    transform: translateY(calc( 100% - 0.15rem ))
     background-color: #FEC2B5
     width: 100%
     height: 100%
@@ -184,18 +223,34 @@
 
 .imagen-decorativa-3
   animation: float2 2.5s ease-in-out infinite alternate
-  position: absolute
-  top: 10rem
-  right: 5%
-  width: 30% 
+  position: relative
+  top: 0rem
+  left: 5%
+  width: 89% 
+
+@media (max-width: 500px)   
+  .imagen-decorativa-3
+    animation: float2 2.5s ease-in-out infinite alternate
+    position: relative
+    top: 0rem
+    right: 0%
+    width: 89%   
 
 .imagen-decorativa-4
   animation: float2 2.5s ease-in-out infinite alternate
-  position: absolute
-  top: 24rem
-  right: 82%
-  width: 10%
+  position: relative
+  top: 0rem
+  left: 31%
+  width: 55%
 
+@media (max-width: 500px)   
+  .imagen-decorativa-4
+    animation: float2 2.5s ease-in-out infinite alternate
+    position: relative
+    top: 0rem
+    right: 0%
+    width: 55% 
+    
 .bloque-text-2
   margin-right: 45%  
 .bloque-img-2
@@ -240,6 +295,7 @@
   
 .tarjeta--azul 
     background-image: url(../assets/curso/temas/tema3/img10_tema3.svg)
+    background-color:#d8ecff0a
 
 .table1
   -webkit-column-span: 3
@@ -249,37 +305,77 @@
 
 .imagen-decorativa-5
   animation: float2 2.5s ease-in-out infinite alternate
-  position: absolute
-  top: 153rem
-  right: 66%
-  width: 26%   
+  position: relative
+  top: 0rem
+  left: 6%
+  width: 105%   
+
+@media (max-width: 500px)   
+  .imagen-decorativa-5
+    animation: float2 2.5s ease-in-out infinite alternate
+    position: relative
+    top: 0rem
+    right: 0%
+    width: 105% 
 
 .imagen-decorativa-6
   animation: float2 2.5s ease-in-out infinite alternate
-  position: absolute
-  top: 362rem
-  right: 77%
-  width: 10%
+  position: relative
+  top: 0rem
+  left: 25%
+  width: 40%
+
+@media (max-width: 500px)   
+  .imagen-decorativa-6
+    animation: float2 2.5s ease-in-out infinite alternate
+    position: relative
+    top: -1rem
+    right: 0%
+    width: 40% 
 
 .imagen-decorativa-7
   animation: float2 2.5s ease-in-out infinite alternate
-  position: absolute
-  top: 419rem
-  right: 73%
-  width: 15%   
+  position: relative
+  top: 0rem
+  right: 0%
+  width: 85%   
+
+@media (max-width: 500px)   
+  .imagen-decorativa-7
+    animation: float2 2.5s ease-in-out infinite alternate
+    position: relative
+    top: -2rem
+    left: 0%
+    width: 85% 
 
 .imagen-decorativa-8
   animation: float2 2.5s ease-in-out infinite alternate
-  position: absolute
-  top: 494rem
-  right: 61%
-  width: 27% 
+  position: relative
+  top: 0rem
+  right: 0%
+  width: 108% 
+
+@media (max-width: 500px)   
+  .imagen-decorativa-8
+    animation: float2 2.5s ease-in-out infinite alternate
+    position: relative
+    top: 0rem
+    left: -15%
+    width: 108% 
 
 .imagen-decorativa-9
-  position: absolute
-  top: 170rem
-  right: 83%
-  width: 9% 
+  position: relative
+  top: 0rem
+  left: 22%
+  width: 63% 
+
+@media (max-width: 500px)   
+  .imagen-decorativa-9
+    animation: float2 2.5s ease-in-out infinite alternate
+    position: relative
+    top: -2rem
+    left: 22%
+    width: 63% 
 
 .text-f
   color: #0D2380

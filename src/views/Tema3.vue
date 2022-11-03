@@ -10,9 +10,9 @@
     .row
       .col-lg-12
         .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
-          .bloque-texto-g__img.bloque-img-2(
+          .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/temas/tema3/img1_tema3.png')})`}")
-          .bloque-texto-g__texto.bloque-text-2.p-4
+          .bloque-texto-g__texto.p-4
             p.mb-0 Las brechas de seguridad pueden causar pérdida de datos, paralizar la operatividad de una empresa, ocasionar la pérdida de confianza por parte de los usuarios, e, incluso, llevar a multas y problemas regulatorios. Para evitar todo lo anterior existe la respuesta a incidentes, la cual es la reacción que se tiene ante posibles amenazas de TI, vulnerabilidades de seguridad y/o tiempo en que el servidor esté inactivo. Esto se lleva a cabo a través de la implementación de herramientas y controles básicos, la validación de su funcionalidad y la verificación del cumplimiento de las cadenas de custodia, según procedimientos técnicos de la política de seguridad de la organización.
 
     .row.mt-5
@@ -142,7 +142,7 @@
     
     .row.mt-5
       .col-lg-4
-        img(src='@/assets/curso/temas/tema3/img9_tema3.svg', alt='Texto que describa la imagen') 
+        img( height="88%" src='@/assets/curso/temas/tema3/img9_tema3.svg', alt='Texto que describa la imagen') 
 
       .col-lg-8
         .row.justify-content-center.mb-5
@@ -371,9 +371,9 @@
     .row.mt-5.col-lg-10.parraf
       .col-lg-12
         .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
-          .bloque-texto-g__img.bloque-img-2(
+          .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/temas/tema3/img16_tema3.png')})`}")
-          .bloque-texto-g__texto.bloque-text-2.p-4
+          .bloque-texto-g__texto.p-4
               p 
               ul.lista-ul--color.mt-3
                 li.fas.fa-check
