@@ -250,7 +250,7 @@
         p Cada campo de la tabla 2 se define a continuación:
 
 
-    .row.mt-5
+    .row.mt-5.bg-6
       .tarjeta.tarjeta--azul.p-4
         SlyderA(tipo="b")
           .row
@@ -322,11 +322,28 @@
         img(src='@/assets/curso/temas/tema3/img13_tema3.svg', alt='Texto que describa la imagen').imagen-decorativa-6
       .col-lg-9
         p Las cadenas de custodia en los sistemas de seguridad de la información permiten la gestión oportuna, ordenada y efectiva de los incidentes y eventualidades que puedan llegar afectar la transparencia, integridad, confidencialidad, y disponibilidad de los activos de información en las empresas, aplicando acciones preventivas y correctivas que minimicen los impactos al nivel más bajo posible. Los pasos para diseñar una cadena de custodia son:  
-    
-    .row3.mt-5 
-      .col-lg-12
-        img(src='@/assets/curso/temas/tema3/img14_tema3.svg', alt='Texto que describa la imagen')
 
+    .row.mt-5
+      .bloque-texto.bg-4
+        .row
+          .col-4
+            img( margin-left="-4%" src="@/assets/curso/temas/tema3/img14_tema3.png")
+          .col-8
+            p 
+              ul.lista-ul--color.mt-3
+                li
+                  i.fas.fa-check
+                  | Identificación, registro y clasificación.
+                li
+                  i.fas.fa-check
+                  | Control y restauración.
+                li       
+                  i.fas.fa-check   
+                  | Erradicación, análisis e investigación.
+                li
+                  i.fas.fa-check            
+                  | Cierre y activación.
+ 
     .row.mt-5
       .col-lg-12
         p En la Tabla 3 se detalla cómo actúa en cada paso la cadena de custodia. 

@@ -44,13 +44,17 @@
     #t_2_1.titulo-segundo.color-acento-contenido
       h2 2.1  Herramientas de monitoreo y gestión
 
-    .row.mt-5 
-      .col-lg-12
-        img(src='@/assets/curso/temas/tema2/img5_tema2.png', alt='Texto que describa la imagen')
+    .row.mt-5
+      .bloque-texto.bg-4
+        .row
+          .col-4
+            img( margin-left="-4% importan" src="@/assets/curso/temas/tema2/img5_tema2.png")
+          .col-8
+              p Se debe empezar por definir el monitoreo y gestión en red como la acción que permite aumentar la seguridad, proporcionando información que todas las áreas de Tecnología de la Información, TI, requieren para asegurar un óptimo funcionamiento y aplicar gestión o toma de decisiones precisas en caso de presentar ataques o intentos de acceso no autorizados. Para ello, es indispensable la aplicación o ejecución de herramientas y <em>software</em> que detecten deficiencias o necesidades para ser abordadas de manera preventiva y no correctiva, de tal forma que se pueda mantener a salvo la información.
 
+    .row
       .col-lg-12.mt-5
         p A continuación, se presentan las herramientas de monitoreo de red que actualmente son más efectivas y que tienen un papel protagónico al momento de medir la integridad en la infraestructura TI. 
-
       .col-lg-12 
         p La información descrita se tomó con referencia en la página oficial de <em>SolarWinds (s.f.)</em> 
 
@@ -134,70 +138,71 @@
       .col-lg-12 
         p A continuación, se detallan las herramientas más usadas para la protección y control del sistema que almacena la información y la red de una empresa:
 
-    .row.mt-5
-      AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
-        .row(titulo="<em>Next Generation Firewall (NGF)</em>")
-          .col-md-4.mb-4.mb-md-0
-            figure
-              img(src='@/assets/curso/temas/tema2/img8_tema2.png', alt='Texto que describa la imagen')       
-          .col-md-8
-            p Sistema, o conjunto de sistemas, que se sitúan entre 2 redes y establecen una política de seguridad, que consiste en proteger una red privada de otra red poco confiable, como por ejemplo el internet. Acción: bloquear acceso a redes no confiables mediante filtros previamente establecidos por el administrador de los sistemas <em>(Microsoft Ignite, s.f.)</em> 
+    .row.mt-5.justify-content-center
+      .col-lg-10.bg-2
+        AcordionA(tipo="b" clase-tarjeta="tarjeta--azul")
+          .row(titulo="<em>Next Generation Firewall (NGF)</em>")
+            .col-md-4.mb-4.mb-md-0
+              figure
+                img(src='@/assets/curso/temas/tema2/img8_tema2.png', alt='Texto que describa la imagen')       
+            .col-md-8
+              p Sistema, o conjunto de sistemas, que se sitúan entre 2 redes y establecen una política de seguridad, que consiste en proteger una red privada de otra red poco confiable, como por ejemplo el internet. Acción: bloquear acceso a redes no confiables mediante filtros previamente establecidos por el administrador de los sistemas <em>(Microsoft Ignite, s.f.)</em> 
 
-        .row(titulo="<em>Proxy</em>-cache")
-          .col-md-4
-            figure
-              img(src='@/assets/curso/temas/tema2/img9_tema2.png', alt='Texto que describa la imagen')       
+          .row(titulo="<em>Proxy</em>-cache")
+            .col-md-4
+              figure
+                img(src='@/assets/curso/temas/tema2/img9_tema2.png', alt='Texto que describa la imagen')       
 
-          .col-md-8.mb-4.mb-md-0
-            p Servidor situado entre el del usuario y otra red externa (internet) actuando como protector al separar las redes y acelerar el acceso a páginas web. Acción: restringir los contenidos de diversas páginas como, por ejemplo: contenido para adultos, <em>pop up,</em> ventanas emergentes. <em>(Microsoft Ignite, s.f.)</em>
-        
-        .row(titulo="Filtrado de contenidos")
-          .col-md-4
-            figure
-              img(src='@/assets/curso/temas/tema2/img10_tema2.png', alt='Texto que describa la imagen')       
+            .col-md-8.mb-4.mb-md-0
+              p Servidor situado entre el del usuario y otra red externa (internet) actuando como protector al separar las redes y acelerar el acceso a páginas web. Acción: restringir los contenidos de diversas páginas como, por ejemplo: contenido para adultos, <em>pop up,</em> ventanas emergentes. <em>(Microsoft Ignite, s.f.)</em>
+          
+          .row(titulo="Filtrado de contenidos")
+            .col-md-4
+              figure
+                img(src='@/assets/curso/temas/tema2/img10_tema2.png', alt='Texto que describa la imagen')       
 
-          .col-md-8.mb-4.mb-md-0
-            p Sistema automatizado para el procesamiento de grandes volúmenes de datos aplicando acciones a los contenidos que cumplen criterios específicos.	 Acción: controlar el contenido que se pueda desplegar en las páginas visitadas. <em>(Microsoft Ignite, s.f.)</em>
+            .col-md-8.mb-4.mb-md-0
+              p Sistema automatizado para el procesamiento de grandes volúmenes de datos aplicando acciones a los contenidos que cumplen criterios específicos.	 Acción: controlar el contenido que se pueda desplegar en las páginas visitadas. <em>(Microsoft Ignite, s.f.)</em>
 
-        .row(titulo="<em>Access Control List</em> ACL")
-          .col-md-4
-            figure
-              img(src='@/assets/curso/temas/tema2/img11_tema2.png', alt='Texto que describa la imagen')       
+          .row(titulo="<em>Access Control List</em> ACL")
+            .col-md-4
+              figure
+                img(src='@/assets/curso/temas/tema2/img11_tema2.png', alt='Texto que describa la imagen')       
 
-          .col-md-8.mb-4.mb-md-0
-            p Grupo de reglas establecidas de acuerdo a preferencia en el tráfico de redes. Las reglas incluyen el direccionamiento IP de origen y destino, el puerto del paquete. Acción: permitir o denegar el tráfico que ingresa o sale de una red. <em>(Microsoft Ignite, s.f.)</em>
+            .col-md-8.mb-4.mb-md-0
+              p Grupo de reglas establecidas de acuerdo a preferencia en el tráfico de redes. Las reglas incluyen el direccionamiento IP de origen y destino, el puerto del paquete. Acción: permitir o denegar el tráfico que ingresa o sale de una red. <em>(Microsoft Ignite, s.f.)</em>
 
-        .row(titulo="Redes Privadas Virtuales VPN")
-          .col-md-4
-            figure
-              img(src='@/assets/curso/temas/tema2/img12_tema2.png', alt='Texto que describa la imagen')       
+          .row(titulo="Redes Privadas Virtuales VPN")
+            .col-md-4
+              figure
+                img(src='@/assets/curso/temas/tema2/img12_tema2.png', alt='Texto que describa la imagen')       
 
-          .col-md-8.mb-4.mb-md-0
-            p Es una conexión cifrada a Internet que se hace a través de un dispositivo a una red (por ejemplo, internet). Acción: permitir que los usuarios trabajen de forma remota y que se espíe el tráfico de la red por personas no autorizadas. <em>(Microsoft Ignite, s.f.)</em>
+            .col-md-8.mb-4.mb-md-0
+              p Es una conexión cifrada a Internet que se hace a través de un dispositivo a una red (por ejemplo, internet). Acción: permitir que los usuarios trabajen de forma remota y que se espíe el tráfico de la red por personas no autorizadas. <em>(Microsoft Ignite, s.f.)</em>
 
-        .row(titulo="<em>Intrusion Detection System IDS</em>")
-          .col-md-4
-            figure
-              img(src='@/assets/curso/temas/tema2/img13_tema2.png', alt='Texto que describa la imagen')       
+          .row(titulo="<em>Intrusion Detection System IDS</em>")
+            .col-md-4
+              figure
+                img(src='@/assets/curso/temas/tema2/img13_tema2.png', alt='Texto que describa la imagen')       
 
-          .col-md-8.mb-4.mb-md-0
-            p Aplicación que detecta el acceso no autorizado a un ordenador o a una red. Acción: monitorear el tráfico entrante de una red para ser comparado con una base de datos en continua actualización, en donde se encuentra una la lista de diversas amenazas. <em>(Microsoft Ignite, s.f.)</em>
+            .col-md-8.mb-4.mb-md-0
+              p Aplicación que detecta el acceso no autorizado a un ordenador o a una red. Acción: monitorear el tráfico entrante de una red para ser comparado con una base de datos en continua actualización, en donde se encuentra una la lista de diversas amenazas. <em>(Microsoft Ignite, s.f.)</em>
 
-        .row(titulo="<em>Intrusion Prevention System IPS</em>")
-          .col-md-4
-            figure
-              img(src='@/assets/curso/temas/tema2/img14_tema2.png', alt='Texto que describa la imagen')       
+          .row(titulo="<em>Intrusion Prevention System IPS</em>")
+            .col-md-4
+              figure
+                img(src='@/assets/curso/temas/tema2/img14_tema2.png', alt='Texto que describa la imagen')       
 
-          .col-md-8.mb-4.mb-md-0
-            p Sistema con actividad preventiva, ya que protege los sistemas de ataques e intrusiones.	 Acción: analizar on time todas las conexiones y protocolos para determinar si se produce o se va a producir un incidente. <em>(Microsoft Ignite, s.f.)</em>
+            .col-md-8.mb-4.mb-md-0
+              p Sistema con actividad preventiva, ya que protege los sistemas de ataques e intrusiones.	 Acción: analizar on time todas las conexiones y protocolos para determinar si se produce o se va a producir un incidente. <em>(Microsoft Ignite, s.f.)</em>
 
-        .row(titulo="<em>Web Application Firewall WAF</em>")
-          .col-md-4
-            figure
-              img(src='@/assets/curso/temas/tema2/img15_tema2.png', alt='Texto que describa la imagen')       
+          .row(titulo="<em>Web Application Firewall WAF</em>")
+            .col-md-4
+              figure
+                img(src='@/assets/curso/temas/tema2/img15_tema2.png', alt='Texto que describa la imagen')       
 
-          .col-md-8.mb-4.mb-md-0
-            p Sistema que actúa como intermediario entre usuarios y aplicaciones web, que se rigen por un conjunto de reglas previamente definidas. Acción: controlar las comunicaciones HTTP (solicitud-respuesta) y analizarlas antes de conectar con los usuarios o aplicaciones externas. <em>(Microsoft Ignite, s.f.)</em>
+            .col-md-8.mb-4.mb-md-0
+              p Sistema que actúa como intermediario entre usuarios y aplicaciones web, que se rigen por un conjunto de reglas previamente definidas. Acción: controlar las comunicaciones HTTP (solicitud-respuesta) y analizarlas antes de conectar con los usuarios o aplicaciones externas. <em>(Microsoft Ignite, s.f.)</em>
 
     .row.cajon-texto.mt-5
       .tarjeta.cajon-color.p-3.mb-5

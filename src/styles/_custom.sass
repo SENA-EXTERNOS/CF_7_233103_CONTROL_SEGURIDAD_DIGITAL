@@ -207,17 +207,16 @@
   color: #111e61
   line-height: 1.2em
 
-.tarjeta-tarjeta--azul
-  background-color: #AAB2D3
+.bg-7
+  .tarjeta--azul
+    background-color: #AAB2D3
+    border-radius: 10px 
 
-.tarjeta.acordeonA
-  background-color: #FFFFFF
+  .acordion__accion__btn--a
+    background-color: #FFFFFF !important
 
-.acordion__accion__btn--a
-  background-color: #FFFFFF !important
-
-.acordion__activo
-  background-color: #DADEEC !important  
+  .acordion__activo
+    background-color: #DADEEC !important  
 
 // Tema 2   
 
@@ -256,6 +255,24 @@
 .bloque-img-2
   margin-left: 50%  
 
+.bg-2
+  .tarjeta--azul 
+    background-color: transparent
+    border-bottom: 1px solid
+
+  .tarjeta.acordeonA
+    background-color: #DADEEC
+  .acordion__accion__btn--a
+    background-color: #DADEEC !important
+  .acordion__activo
+    background-color: #DADEEC !important
+
+.bg-4
+  border-radius: 20px
+  border: #D3D3D3 solid
+ 
+
+
 // Tema 3 
 
 .img-infografica.color-primario .img-infografica__item__dot:before, .img-infografica.color-primario .img-infografica__item__dot:after, .img-infografica.color-primario .img-infografica-b__item__dot:before, .img-infografica.color-primario .img-infografica-b__item__dot:after, .img-infografica-b.color-primario .img-infografica__item__dot:before, .img-infografica-b.color-primario .img-infografica__item__dot:after, .img-infografica-b.color-primario .img-infografica-b__item__dot:before, .img-infografica-b.color-primario .img-infografica-b__item__dot:after 
@@ -293,9 +310,11 @@
   &::before 
     border-bottom-left-radius: 30px
   
-.tarjeta--azul 
+.bg-6
+  .tarjeta--azul 
     background-image: url(../assets/curso/temas/tema3/img10_tema3.svg)
-    background-color:#d8ecff0a
+    background-color: #d8ecff14
+
 
 .table1
   -webkit-column-span: 3

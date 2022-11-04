@@ -471,19 +471,20 @@
         p <b>Sensores biométricos</b>
         p.mt-5 Es el proceso de comparar la huella que lee el equipo con las huellas almacenadas, luego la identificación de la misma o plantilla correspondiente, y, finalmente, la verificación del usuario que la registró. A continuación se describen los tipos de autenticación:
 
-    .row.mt-5
-      AcordionA(tipo="a" clase-tarjeta="tarjeta-tarjeta--azul")
-        .row(titulo="Autentificación (Verificación) 1:1")
-         .col-md-12.mb-4.mb-md-0
-            p De este modo, ingresa un número de ID de usuario y luego la huella dactilar correspondiente. Las huellas dactilares asociadas al número de ID serán comparadas 1-1 con la leída. Esta autenticación 1-1 tarda un período de tiempo muy breve, sin importar el número de usuarios registrados. No hay necesidad de hacer modificaciones especiales en la configuración del sistema.
-        
-        .row(titulo="Autentificación (Identificación) 1:")  
-          .col-md-12.mb-4.mb-md-0
-            p En este modo solo es necesario que el usuario ponga su huella dactilar en el sensor del equipo. Aunque el procedimiento de la autentificación es simple, este método durará un poco más de tiempo que la autentificación 1.1 si hay muchos usuarios registrados. No hay necesidad de hacer ningún ajuste especial en la configuración del sistema.
+    .row.justify-content-around.align-items-center.mt-5
+      .col-lg-10.bg-7
+        AcordionA(tipo="a" clase-tarjeta="tarjeta--azul")
+          .row(titulo="Autentificación (Verificación) 1:1")
+            .col-md-12.mb-4.mb-md-0
+                p De este modo, ingresa un número de ID de usuario y luego la huella dactilar correspondiente. Las huellas dactilares asociadas al número de ID serán comparadas 1-1 con la leída. Esta autenticación 1-1 tarda un período de tiempo muy breve, sin importar el número de usuarios registrados. No hay necesidad de hacer modificaciones especiales en la configuración del sistema.
+            
+          .row(titulo="Autentificación (Identificación) 1:")  
+            .col-md-12.mb-4.mb-md-0
+              p En este modo solo es necesario que el usuario ponga su huella dactilar en el sensor del equipo. Aunque el procedimiento de la autentificación es simple, este método durará un poco más de tiempo que la autentificación 1.1 si hay muchos usuarios registrados. No hay necesidad de hacer ningún ajuste especial en la configuración del sistema.
 
-        .row(titulo="Autentificación por Clave")
-          .col-md-12.mb-4.mb-md-0
-            p Una clave de 1-5 dígitos de largo puede ser usada para validar una autentificación de acceso. Se puede usar este método en casos especiales, como cuando las huellas de un trabajador están muy deterioradas, o el sensor del equipo esté dañado.
+          .row(titulo="Autentificación por Clave")
+            .col-md-12.mb-4.mb-md-0
+              p Una clave de 1-5 dígitos de largo puede ser usada para validar una autentificación de acceso. Se puede usar este método en casos especiales, como cuando las huellas de un trabajador están muy deterioradas, o el sensor del equipo esté dañado.
 
     
     .row
