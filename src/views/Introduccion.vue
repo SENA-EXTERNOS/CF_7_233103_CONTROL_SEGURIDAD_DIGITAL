@@ -14,7 +14,7 @@
       .col-lg-12
         .bloque-texto-b.color-primario-intro.p-4
           .bloque-texto-b__texto
-            p.mt-5 En este recurso educativo se describen las herramientas para el control de incidentes en ciberseguridad, sin que se profundice en el impacto de estos. De este modo, el enfoque se centrará principalmente en la parametrización de hardware y software, seguridad en sistemas operativos, mecanismos como la criptografía, seguridad perimetral y plataformas de auditorías. Por último, se revisará de forma general la detección de incidentes de seguridad. 
+            p.mt-5 En este recurso educativo se describen las herramientas para el control de incidentes en ciberseguridad, sin que se profundice en el impacto de estos. De este modo, el enfoque se centrará principalmente en la parametrización de <em>hardware y software</em>, seguridad en sistemas operativos, mecanismos como la criptografía, seguridad perimetral y plataformas de auditorías. Por último, se revisará de forma general la detección de incidentes de seguridad. 
       
     .row.justify-content-around.align-items-center.mt-3
       .col-lg-5

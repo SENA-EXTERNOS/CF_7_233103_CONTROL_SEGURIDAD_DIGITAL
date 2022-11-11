@@ -407,7 +407,7 @@
               img(src="@/assets/curso/temas/tema1/img13_tema1.svg", alt="alt")
           .crd_hover_txt--body
             h4.mb-3 4-  <em>Experimental</em>
-            p.mb-0 Huellas dactilares de motor SSL engine (ver ‘<em>Fingerprint’</em> Experimental).
+            p.mb-0 Huellas dactilares de motor SSL <em>engine</em> (ver ‘<em>Fingerprint’</em> Experimental).
 
     .row.mt-5
       .col-lg-12
@@ -429,7 +429,7 @@
               .col-lg-2
                   img(src="@/assets/curso/temas/tema1/img15_tema1.svg", alt="alt")
               .col-lg-10   
-                  p.mb-3 Existen dos fases de control de acceso: la primera ya descrita en el documento anexo a través del portal SEBRA, y la segunda se realiza al ingresar al sistema CUD a través de su integración con el S3, donde el acceso a las funciones o pantallas está controlado según los roles y perfiles que el delegado de la ‘entidad participante’ haya configurado para el usuario (únicamente se pueden ejecutar las funciones autorizadas por estos
+                  p.mb-3 Existen dos fases de control de acceso: la primera ya descrita en el documento anexo a través del portal SEBRA, y la segunda se realiza al ingresar al sistema CUD a través de su integración con el S3, donde el acceso a las funciones o pantallas está controlado según los roles y perfiles que el delegado de la ‘entidad participante’ haya configurado para el usuario (únicamente se pueden ejecutar las funciones autorizadas por estos.
 
           .tarjeta.clr--gris.opciones-t8.p-4(titulo="Integridad y confidencialidad")
             .row

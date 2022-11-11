@@ -45,7 +45,7 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Gestión de hardware y software',
+        titulo: 'Gestión de <i>hardware y software</i>',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -79,7 +79,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '2.2',
-            titulo: 'Herramientas de monitoreo y gestión',
+            titulo: 'Herramientas de protección y control',
             hash: 't_2_2',
           },
         ],

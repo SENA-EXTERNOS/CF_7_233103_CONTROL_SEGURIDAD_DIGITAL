@@ -31,30 +31,33 @@
 
           .tarjeta.color-primario.p-3(x="53%" y="25%" numero="")
             .h5.mb-2 Monitorear y verificar:
-            p Realizar monitoreo y verificación de los elementos de control con el fin de detectar un posible incidente de seguridad de la información.Lorem ipsum dolor Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
+            p Realizar monitoreo y verificación de los elementos de control con el fin de detectar un posible incidente de seguridad de la información.
 
           .tarjeta.color-primario.p-3(x="75%" y="32%" numero="")
             .h5.mb-2 Copias de seguridad:
-            p Generar copias de seguridad de los tipos incremental, diferencial y total.Lorem ipsum dolor ddasdasd asdasd asdasd a asd sd asdasd sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
+            p Generar copias de seguridad de los tipos incremental, diferencial y total.
 
           .tarjeta.color-primario.p-3(x="87%" y="51%" numero="")
-            .h5.mb-2 Plataformas de auditorías de logs:
-            p Implementar plataformas de auditorías de logs nist sp 800-92, correlacionadores de eventos, revisión de patrones de ataque, metodologías, revisión de archivos de logs.    
+            .h5.mb-2 Plataformas de auditorías de <em>logs</em>:
+            p Implementar plataformas de auditorías de <em>logs</em> nist sp 800-92, correlacionadores de eventos, revisión de patrones de ataque, metodologías, revisión de archivos de <em>logs</em>.    
  
           .tarjeta.color-primario.p-3(x="84%" y="74%" numero="")
             .h5.mb-2 Clasificación de los ataques:
             p Clasificar los ataques de acuerdo a su gravedad.
             ul
-              li.fas.fa-check
+              li
+                i.fas.fa-check
                 | Gravedad 1: Incidente crítico con elevada repercusión.
-              li.fas.fa-check
+              li
+                i.fas.fa-check
                 | Gravedad 2: Incidente grave con considerable repercusión. 
-              li.fas.fa-check
+              li
+                i.fas.fa-check
                 | Gravedad 3: Incidente leve de baja repercusión.
  
           .tarjeta.color-primario.p-3(x="66%" y="89%" numero="")
             .h5.mb-2 Documentar las incidencias:
-            p Se deben documentar los incidentes a través de un lenguaje que toda la organización pueda comprender
+            p Se deben documentar los incidentes a través de un lenguaje que toda la organización pueda comprender.
  
           .tarjeta.color-primario.p-3(x="42%" y="89%" numero="")
             .h5.mb-2 Informar a los clientes:
