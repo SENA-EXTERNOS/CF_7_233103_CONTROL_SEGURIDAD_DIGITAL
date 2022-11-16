@@ -303,19 +303,19 @@
     
     .row.justify-content-center.mb-4
       .col-lg-12
-        .crd.clr--gray.brd--rad.p-4
+        .crd.clr--gray.brd--rad.p-4.bg-8
           PasosB.color-acento-botones
             .row.justify-content-center(titulo="").pt-3
               .col-lg-9.mb-4.mb-lg-0
-                h5 1er. Registro 
-                p.mt-3 Verificación en Google
+                h5.bg-8 1er. Registro 
+                p.bg-8.mt-3 Verificación en Google
                 ol.lista-ol
                   li 
                     span.text-bold 1. 
                     | Inicie sesión con de google Chrome en una computadora.
                   li 
                     span.text-bold 2. 
-                    | Haga <em>click</em> en ‘mi cuenta’ -> ‘inicio de sesión y seguridad’ -> ‘verificación en dos pasos’. Inicie sesión con de google Chrome en una computadora.
+                    | Haga <i>click</i> en ‘mi cuenta’ -> ‘inicio de sesión y seguridad’ -> ‘verificación en dos pasos’.
                   li 
                     span.text-bold 3. 
                     | Haga clic en ‘agregar clave de seguridad’ y siga las instrucciones para completar el registro.
@@ -332,8 +332,8 @@
 
             .row.justify-content-center(titulo="").pt-3
               .col-lg-9.mb-4.mb-lg-0
-                h5 2do. Registro
-                p.mt-3 Programa de protección avanzada de Google
+                h5.bg-8 2do. Registro
+                p.bg-8.mt-3 Programa de protección avanzada de Google
                 ol.lista-ol
                   li 
                     span.text-bold 1. 

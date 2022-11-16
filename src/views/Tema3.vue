@@ -148,7 +148,7 @@
         img( height="88%" src='@/assets/curso/temas/tema3/img9_tema3.svg', alt='Texto que describa la imagen') 
 
       .col-lg-8
-        .row.justify-content-center.mb-5
+        .row.justify-content-center.mb-5.bg-9 
           .crd.crd--avatarHorizontal.crd--first.py-4
             .row.align-items-center
               .col-auto

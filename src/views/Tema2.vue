@@ -49,7 +49,7 @@
         .row
           .col-4
             img( margin-left="-4% importan" src="@/assets/curso/temas/tema2/img5_tema2.png")
-          .col-8
+          .col-8.justify-content-between.align-items-center
               p Se debe empezar por definir el monitoreo y gestión en red como la acción que permite aumentar la seguridad, proporcionando información que todas las áreas de Tecnología de la Información, TI, requieren para asegurar un óptimo funcionamiento y aplicar gestión o toma de decisiones precisas en caso de presentar ataques o intentos de acceso no autorizados. Para ello, es indispensable la aplicación o ejecución de herramientas y <em>software</em> que detecten deficiencias o necesidades para ser abordadas de manera preventiva y no correctiva, de tal forma que se pueda mantener a salvo la información.
 
     .row
