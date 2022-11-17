@@ -312,19 +312,19 @@
                 ol.lista-ol
                   li 
                     span.text-bold 1. 
-                    | Inicie sesión con de google Chrome en una computadora.
+                    p.bg-8.mb-0 Inicie sesión con de google Chrome en una computadora.
                   li 
                     span.text-bold 2. 
-                    | Haga <i>click</i> en ‘mi cuenta’ -> ‘inicio de sesión y seguridad’ -> ‘verificación en dos pasos’.
+                    p.bg-8.mb-0 Haga #[i click] en ‘mi cuenta’ -> ‘inicio de sesión y seguridad’ -> ‘verificación en dos pasos’.
                   li 
                     span.text-bold 3. 
-                    | Haga clic en ‘agregar clave de seguridad’ y siga las instrucciones para completar el registro.
+                    p.bg-8.mb-0 Haga #[i clic] en ‘agregar clave de seguridad’ y siga las instrucciones para completar el registro.
                   li 
                     span.text-bold 4. 
-                    | Se le informará que inserte su llave de seguridad <em>ePass</em> FIDO® durante el proceso de registro.        
+                    p.bg-8.mb-0 Se le informará que inserte su llave de seguridad #[i ePass] FIDO® durante el proceso de registro.        
                   li 
                     span.text-bold 5. 
-                    | Haga <em>click /</em> toque el botón para comprobar la presencia del usuario cuando el indicador de autenticación parpadee. Su registro se completará en un momento.
+                    p.bg-8.mb-0 Haga #[i click ] / toque el botón para comprobar la presencia del usuario cuando el indicador de autenticación parpadee. Su registro se completará en un momento.
 
               .col-lg-3.col-6
                 figure
@@ -337,7 +337,7 @@
                 ol.lista-ol
                   li 
                     span.text-bold 1. 
-                    | Acceso: página de inicio de Programa de protección avanzada con un Navegador Chrome:
+                    p.bg-8.mb-0 Acceso: página de inicio de Programa de protección avanzada con un Navegador Chrome:
                   li  
                     a.anexo.mb-4.mb-lg-0(href="https://www.academia.edu/22360402/Manual_de_Usuario_de_Pfsense_Firewall" target="_blank")
                         .anexo__icono
@@ -347,19 +347,19 @@
                 
                   li 
                     span.text-bold 2. 
-                    | Haga <em>click</em> en ‘¡empieza ya!’.
+                    p.bg-8.mb-0 Haga #[i click] en ‘¡empieza ya!’.
                   li 
                     span.text-bold 3. 
-                    | Prepare 2 llaves de seguridad y haga <em>clic</em> en ‘tengo 2 llaves de seguridad’.
+                    p.bg-8.mb-0 Prepare 2 llaves de seguridad y haga #[i clic] en ‘tengo 2 llaves de seguridad’.
                   li 
                     span.text-bold 4. 
-                    | Se le pedirá que ingrese la contraseña otra vez.
+                    p.bg-8.mb-0 Se le pedirá que ingrese la contraseña otra vez.
                   li 
                     span.text-bold 5. 
-                    | Registre la clave de seguridad una por una y haga <em>clic</em> en ‘continuar’.
+                    p.bg-8.mb-0 Registre la clave de seguridad una por una y haga #[i clic] en ‘continuar’.
                   li 
                     span.text-bold 6. 
-                    | Lea y confirme las notificaciones sobre el Programa de protección avanzada y haga <em>clic</em> en ‘encender’. Su registro se completará en un momento.                         
+                    p.bg-8.mb-0 Lea y confirme las notificaciones sobre el Programa de protección avanzada y haga #[i clic] en ‘encender’. Su registro se completará en un momento.                         
             
               .col-lg-3.col-6
                 figure
@@ -418,53 +418,60 @@
       .col-lg-12.order-2.order-lg-1
         TabsA.color-primario
           .tarjeta.clr--gris.opciones-t8.p-4(titulo="Autenticación")
-            .row
+            .row.bg-9
               .col-lg-2
+                figure.bg-11
                   img(src="@/assets/curso/temas/tema1/img14_tema1.svg", alt="alt")
               .col-lg-10    
-                   p.mb-3 El ingreso al sistema de información se debe realizar a través del portal de aplicaciones SEBRA (que hace parte de la plataforma SEBRA). En este portal, el proceso de autenticación fuerte es de múltiple factor (<em>pin</em> definido por el usuario y <em>token OTP-One Time Password</em>). Luego de completar la autenticación en SEBRA, se habilita a través de este el acceso del usuario hacia el CUD mediante un mecanismo de <em>single-sign-on</em> (SSO).
+                   p.bg-10.mb-3 El ingreso al sistema de información se debe realizar a través del portal de aplicaciones SEBRA (que hace parte de la plataforma SEBRA). En este portal, el proceso de autenticación fuerte es de múltiple factor (<em>pin</em> definido por el usuario y <em>token OTP-One Time Password</em>). Luego de completar la autenticación en SEBRA, se habilita a través de este el acceso del usuario hacia el CUD mediante un mecanismo de <em>single-sign-on</em> (SSO).
           
-          .tarjeta.clr--gris.opciones-t8.p-4(titulo="Control de acceso y autorización")
-            .row
+          .tarjeta.clr--gris.opciones-t8.p-4(titulo="Control de acceso y <br> autorización")
+            .row.bg-9
               .col-lg-2
+                figure.bg-11
                   img(src="@/assets/curso/temas/tema1/img15_tema1.svg", alt="alt")
               .col-lg-10   
-                  p.mb-3 Existen dos fases de control de acceso: la primera ya descrita en el documento anexo a través del portal SEBRA, y la segunda se realiza al ingresar al sistema CUD a través de su integración con el S3, donde el acceso a las funciones o pantallas está controlado según los roles y perfiles que el delegado de la ‘entidad participante’ haya configurado para el usuario (únicamente se pueden ejecutar las funciones autorizadas por estos.
+                  p.bg-10.mb-3 Existen dos fases de control de acceso: la primera ya descrita en el documento anexo a través del portal SEBRA, y la segunda se realiza al ingresar al sistema CUD a través de su integración con el S3, donde el acceso a las funciones o pantallas está controlado según los roles y perfiles que el delegado de la ‘entidad participante’ haya configurado para el usuario (únicamente se pueden ejecutar las funciones autorizadas por estos.
 
-          .tarjeta.clr--gris.opciones-t8.p-4(titulo="Integridad y confidencialidad")
-            .row
+          .tarjeta.clr--gris.opciones-t8.p-4(titulo="Integridad y <br> confidencialidad")
+            .row.bg-9
               .col-lg-2
+                figure.bg-11
                   img(src="@/assets/curso/temas/tema1/img16_tema1.svg", alt="alt")
               .col-lg-10    
-                  p.mb-3 La comunicación entre los usuarios y el aplicativo se realiza usando protocolos seguros de comunicación (en este caso https con TLS versión X).
+                  p.bg-10.mb-3 La comunicación entre los usuarios y el aplicativo se realiza usando protocolos seguros de comunicación (en este caso https con TLS versión X).
 
           .tarjeta.clr--gris.opciones-t8.p-4(titulo="Observancia")
-            .row
+            .row.bg-9
               .col-lg-2
+                figure.bg-11
                   img(src="@/assets/curso/temas/tema1/img17_tema1.svg", alt="alt")
               .col-lg-10    
-                  p.mb-3 Las principales acciones de los usuarios, desde la autenticación inicial hasta la captura y aprobación de transferencias de fondos, son almacenadas en tablas de la base de datos del sistema cuya información no puede ser modificada debido a los controles de cambio de datos implementados a través de herramientas de monitoreo, alerta y protección de bases de datos (tecnologías de <em>database security</em>).
+                  p.bg-10.mb-3 Las principales acciones de los usuarios, desde la autenticación inicial hasta la captura y aprobación de transferencias de fondos, son almacenadas en tablas de la base de datos del sistema cuya información no puede ser modificada debido a los controles de cambio de datos implementados a través de herramientas de monitoreo, alerta y protección de bases de datos (tecnologías de <em>database security</em>).
          
-          .tarjeta.clr--gris.opciones-t8.p-4(titulo="Trazabilidad de las transacciones realizadas en el CUD")
-            .row
+          .tarjeta.clr--gris.opciones-t8.p-4(titulo="Trazabilidad de las <br> transacciones realizadas <br> en el CUD")
+            .row.bg-9
               .col-lg-2
+                figure.bg-11
                   img(src="@/assets/curso/temas/tema1/img18_tema1.svg", alt="alt")
               .col-lg-10    
-                  p.mb-3 Desde el momento en que se autentica en el sistema, a través del proceso de <em>single-sign-on</em> desde el portal SEBRA, el usuario es almacenado en una tabla que registra sus acciones por medio de la acción de ‘inicio de sesión’.
+                  p.bg-10.mb-3 Desde el momento en que se autentica en el sistema, a través del proceso de <em>single-sign-on</em> desde el portal SEBRA, el usuario es almacenado en una tabla que registra sus acciones por medio de la acción de ‘inicio de sesión’.
           
           .tarjeta.clr--gris.opciones-t8.p-4(titulo="Registro")
-            .row
+            .row.bg-9
               .col-lg-2
+                figure.bg-11
                   img(src="@/assets/curso/temas/tema1/img19_tema1.svg", alt="alt")
               .col-lg-10    
-                  p.mb-3 Los registros de operación de los servicios involucrados en el Portal SEBRA, ‘servicio de autenticación fuerte’ y S3 son conservados en una herramienta de industria que la entidad maneja para este fin.
+                  p.bg-10.mb-3 Los registros de operación de los servicios involucrados en el Portal SEBRA, ‘servicio de autenticación fuerte’ y S3 son conservados en una herramienta de industria que la entidad maneja para este fin.
        
           .tarjeta.clr--gris.opciones-t8.p-4(titulo="No repudio")
-            .row
+            .row.bg-9
               .col-lg-2
+                figure.bg-11
                   img(src="@/assets/curso/temas/tema1/img20_tema1.svg", alt="alt")
               .col-lg-10    
-                  p.mb-3 Debido a que todas las acciones realizadas por los usuarios están completamente registradas y protegidas por los esquemas de observancia y auditoría ya descritos, las transacciones hechas a través del sistema cuentan con evidencia digital suficiente para evitar el repudio de estas.
+                  p.bg-10.mb-3 Debido a que todas las acciones realizadas por los usuarios están completamente registradas y protegidas por los esquemas de observancia y auditoría ya descritos, las transacciones hechas a través del sistema cuentan con evidencia digital suficiente para evitar el repudio de estas.
    
     .row.mt-5
       .col-lg-12

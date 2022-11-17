@@ -44,14 +44,13 @@
     #t_2_1.titulo-segundo.color-acento-contenido
       h2 2.1  Herramientas de monitoreo y gestión
 
-    .row.mt-5
-      .bloque-texto.bg-4
-        .row
-          .col-4
-            img( margin-left="-4% importan" src="@/assets/curso/temas/tema2/img5_tema2.png")
-          .col-8.justify-content-between.align-items-center
-              p Se debe empezar por definir el monitoreo y gestión en red como la acción que permite aumentar la seguridad, proporcionando información que todas las áreas de Tecnología de la Información, TI, requieren para asegurar un óptimo funcionamiento y aplicar gestión o toma de decisiones precisas en caso de presentar ataques o intentos de acceso no autorizados. Para ello, es indispensable la aplicación o ejecución de herramientas y <em>software</em> que detecten deficiencias o necesidades para ser abordadas de manera preventiva y no correctiva, de tal forma que se pueda mantener a salvo la información.
-
+    .row.justify-content-around.align-items-center.mt-5.background-full
+      .col-lg-4
+        figure(data-aos="zoom-in")
+          img(src='@/assets/curso/temas/tema2/img5_tema2.png', alt='Texto que describa la imagen').imagen-full-tema-1
+      .col-lg-8
+        p(data-aos="fade-down") Se debe empezar por definir el monitoreo y gestión en red como la acción que permite aumentar la seguridad, proporcionando información que todas las áreas de Tecnología de la Información, TI, requieren para asegurar un óptimo funcionamiento y aplicar gestión o toma de decisiones precisas en caso de presentar ataques o intentos de acceso no autorizados. Para ello, es indispensable la aplicación o ejecución de herramientas y <em>software</em> que detecten deficiencias o necesidades para ser abordadas de manera preventiva y no correctiva, de tal forma que se pueda mantener a salvo la información.
+ 
     .row
       .col-lg-12.mt-5
         p A continuación, se presentan las herramientas de monitoreo de red que actualmente son más efectivas y que tienen un papel protagónico al momento de medir la integridad en la infraestructura TI. 
@@ -64,26 +63,26 @@
           .row
             .col-md-12
               h4 Monitoreo de red
-              p Permite tener una idea precisa del estado de la red <em>on time</em>, sin importar la cantidad de proveedores o tipos de redes.
+              p.mb-0 Permite tener una idea precisa del estado de la red <em>on time</em>, sin importar la cantidad de proveedores o tipos de redes.
               ul.lista-ul--color.mt-3
                 li
                   i.fas.fa-check
-                  | Suministra el historial de utilización para planificar tu capacidad.
+                  p.mb-0 Suministra el historial de utilización para planificar tu capacidad.
                 li
                   i.fas.fa-check
-                  | Se generan alertas cuando algo va mal en un sistema crítico. 
+                  p.mb-0 Se generan alertas cuando algo va mal en un sistema crítico. 
                 li
                   i.fas.fa-check
-                  | Soluciones para la nube y las instalaciones siempre disponibles en un solo lugar. 
+                  p.mb-0 Soluciones para la nube y las instalaciones siempre disponibles en un solo lugar. 
                 li
                   i.fas.fa-check
-                  | Los <em>firewalls</em> no se van a utilizar en exceso.
+                  p.mb-0 Los #[i firewalls] no se van a utilizar en exceso.
                 li
                   i.fas.fa-check
-                  | Si algún equipo falla se sabrá del incidente al instante, sin importar en donde te encuentres.
+                  p.mb-0 Si algún equipo falla se sabrá del incidente al instante, sin importar en donde te encuentres.
                 li
                   i.fas.fa-check
-                  | Cuenta con Monitoreo, instalación, mantenimiento y seguimiento por parte de <em>Network Operation Center</em> (NOC).            
+                  p.mb-0 Cuenta con Monitoreo, instalación, mantenimiento y seguimiento por parte de #[i Network Operation Center] (NOC).            
 
         .py-4.py-md-5(titulo="<b><em>Network Traffic Analyzer (NTA)</em></b>" :icono="require('@/assets/curso/temas/tema2/icon2_tema2.svg')")
           .row
@@ -93,19 +92,19 @@
               ul.lista-ul--color.mt-3
                 li
                   i.fas.fa-check
-                  | Monitorea el uso del ancho de banda por aplicación, protocolo y grupo de direcciones IP.
+                  p.mb-0 Monitorea el uso del ancho de banda por aplicación, protocolo y grupo de direcciones IP.
                 li
                   i.fas.fa-check
-                  | Recibe alertas si el tráfico de la aplicación de repente aumenta, disminuye o desaparece por completo. 
+                  p.mb-0 Recibe alertas si el tráfico de la aplicación de repente aumenta, disminuye o desaparece por completo. 
                 li
                   i.fas.fa-check
-                  | Analice los patrones del tráfico de red a lo largo de meses, días o minutos al explorar cualquier elemento de la red en profundidad. 
+                  p.mb-0 Analice los patrones del tráfico de red a lo largo de meses, días o minutos al explorar cualquier elemento de la red en profundidad. 
                 li
                   i.fas.fa-check
-                  | Cuenta con compatibilidad de conmutadores distribuidos de <em>VMware vSphere.</em>
+                  p.mb-0 Cuenta con compatibilidad de conmutadores distribuidos de #[i VMware vSphere.]
                 li
                   i.fas.fa-check
-                  | Correlaciona datos de red de apilamiento cruzado de <em>PerfStack™.</em>
+                  p.mb-0 Correlaciona datos de red de apilamiento cruzado de #[i PerfStack™.]
 
         .py-4.py-md-5(titulo="<b><em>Server and Application Monitor (SAM)</em></b>" :icono="require('@/assets/curso/temas/tema2/icon3_tema2.svg')")
           .row
@@ -115,16 +114,16 @@
               ul.lista-ul--color.mt-3
                 li
                   i.fas.fa-check
-                  | Monitorea todo tu entorno de servidores locales, nube o aplicaciones híbridas y tu infraestructura con una sola herramienta.
+                  p.mb-0 Monitorea todo tu entorno de servidores locales, nube o aplicaciones híbridas y tu infraestructura con una sola herramienta.
                 li
                   i.fas.fa-check
-                  | Más de 1200 plantillas de monitoreo de infraestructuras, sistemas y aplicaciones.
+                  p.mb-0 Más de 1200 plantillas de monitoreo de infraestructuras, sistemas y aplicaciones.
                 li
                   i.fas.fa-check
-                  | Monitoreo integral de las aplicaciones de <em>Microsoft,</em> los sistemas, el hipervisor, y los productos <em>IaaS, PaaS y SaaS.</em>
+                  p.mb-0 Monitoreo integral de las aplicaciones de #[i Microsoft,] los sistemas, el hipervisor, y los productos #[i IaaS, PaaS y SaaS.]
                 li
                   i.fas.fa-check
-                  | Visualiza y asigna las relaciones basadas en comunicaciones dinámicas entre aplicaciones y servidores para detectar problemas de red que disminuyen la velocidad de tus aplicaciones.
+                  p.mb-0 Visualiza y asigna las relaciones basadas en comunicaciones dinámicas entre aplicaciones y servidores para detectar problemas de red que disminuyen la velocidad de tus aplicaciones.
 
     .row.cajon-texto.mt-5
       .tarjeta.cajon-color.p-3.mb-5

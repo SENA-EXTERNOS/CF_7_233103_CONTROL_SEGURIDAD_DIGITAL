@@ -222,6 +222,12 @@
   p, h3
   color: #0D2380
 
+.bg-9
+  background-color: #aab2d32b 
+.bg-10
+  margin-top: 4% 
+.bg-11
+  margin-top: 31%
 
 // Tema 2   
 
@@ -405,12 +411,30 @@
   color: #0D2380
 
 
-.bg-9 
+.bg-12
  .crd--avatarHorizontal 
    position: relative
    padding-right: 1rem
  .py-4 
     padding-top: 0.5rem !important
     padding-bottom: 0.5rem !important
-    margin-bottom: 10px 
-     
+    margin-bottom: 5px 
+
+.crd--avatarHorizontal::before 
+  position: absolute
+  content: ''
+  top: 0
+  right: 0
+  width: calc( 100% - 60px)
+  height: 100%
+  background-color: #0D2380
+  border-radius: 25px
+
+
+.background-full
+  border: solid 2px #D3D3D3
+  border-radius: 22px   
+.imagen-full-tema-1
+  background-size: 100% 100%
+  margin-left: -4%
+  

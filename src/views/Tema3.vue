@@ -148,8 +148,8 @@
         img( height="88%" src='@/assets/curso/temas/tema3/img9_tema3.svg', alt='Texto que describa la imagen') 
 
       .col-lg-8
-        .row.justify-content-center.mb-5.bg-9 
-          .crd.crd--avatarHorizontal.crd--first.py-4
+        .row.justify-content-center.mb-5.bg-12 
+          .crd.crd--avatarHorizontal.py-4
             .row.align-items-center
               .col-auto
                 figure
@@ -205,7 +205,7 @@
                   img(src="@/assets/curso/temas/tema3/icon8_tema3.svg", alt="alt").img100
               .col
                 h5 Establecer y monitorear sucesos o eventualidades, para definir un patrón de posible ataque y documentar las formas de contrarrestarlo.
-          .crd.crd--avatarHorizontal.crd--last.py-4
+          .crd.crd--avatarHorizontal.py-4
             .row.align-items-center
               .col-auto
                 figure
@@ -330,7 +330,8 @@
       .bloque-texto.bg-4
         .row
           .col-4
-            img( margin-left="-4%" src="@/assets/curso/temas/tema3/img14_tema3.png")
+            figure
+              img(src="@/assets/curso/temas/tema3/img14_tema3.png").imagen-full-tema-1
           .col-8
             p 
               ul.lista-ul--color.mt-3
