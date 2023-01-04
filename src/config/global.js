@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Ciberseguridad, herramientas de monitoreo y control',
     descripcionCurso:
-      'En este material se introduce al aprendiz en la configuración, operación, validación y verificación de herramientas de control de seguridad digital, que permiten mitigar los riesgos según procedimientos técnicos de la política y normatividad de la ciberseguridad, aspecto fundamental para verificar la funcionalidad y el cumplimiento de la cadena de custodia de los incidentes.',
+      'La configuración, operación, validación y verificación de herramientas de control de seguridad digital, que permiten mitigar los riesgos según procedimientos técnicos de la política y normatividad de la ciberseguridad, aspecto fundamental para verificar la funcionalidad y el cumplimiento de la cadena de custodia de los incidentes.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -45,7 +45,7 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Gestión de <i>hardware y software</i>',
+        titulo: 'Gestión de <em> hardware</em> y <em> software</em>',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -148,36 +148,33 @@ export default {
   },
   complementario: [
     {
-      tema:
-        'Evaluación del rendimiento de cortafuegos basados en software libre',
+      tema: 'Manuales técnicos',
       referencia:
-        'Perdigón Llanes, R. (2022) Evaluación Del Rendimiento De Cortafuegos Basados En Software Libre.<em>"NOVASINERGIA 5</em>(1) p. 31-42.',
+        'Perdigón Llanes, R. (2022). Evaluación Del Rendimiento De Cortafuegos Basados En Software Libre. NOVASINERGIA 5(1), p. 31-42.',
       tipo: 'Articulo',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1i756fj/TN_cdi_doaj_primary_oai_doaj_org_article_43539a8d908740c09c11297e9b1b872a',
+        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1i756fj/TN_cdi_doaj_primary_oai_doaj_org_article_43539a8d908740c09c11297e9b1b872a ',
     },
     {
-      tema: 'Gestión de incidentes de seguridad informática (MF0488_3)',
+      tema: 'Respuesta a incidentes',
       referencia:
-        'Chicano Tejada, E. (2014). <em>Gestión De Incidentes De Seguridad Informática.</em> IC Editorial ',
+        'Chicano Tejada, E. (2014). Gestión De Incidentes De Seguridad Informática. IC Editorial.',
       tipo: 'Libro',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_elibroELB44101',
+        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_elibroELB44101 ',
     },
     {
-      tema:
-        'Herramientas para la seguridad: de como un paquete de trucos tecnológicos puede mejorar, pero no garantizar, su seguridad.',
+      tema: 'Herramientas de protección y control',
       referencia:
-        'The Economist (2003) Herramientas para la seguridad: de como un paquete de trucos tecnológicos puede mejorar, pero no garantizar, su seguridad. En <em>Gestión de TI.  (p. VI-IX) Nexos. Sociedad, ciencia y literatura</em> S.A. 25 (310) ',
+        'The Economist. (2003). Herramientas para la seguridad: de como un paquete de trucos tecnológicos puede mejorar, pero no garantizar, su seguridad. En Gestión de TI.  (p. VI-IX) Nexos. Sociedad, ciencia y literatura S.A. 25(310).',
       tipo: 'Capítulo de artículo',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1i756fj/TN_cdi_gale_lrcgauss_A110619588',
+        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1i756fj/TN_cdi_gale_lrcgauss_A110619588 ',
     },
     {
-      tema:
-        'Human Factors Approach to Cybersecurity Teamwork – The Military Perspective',
+      tema: 'Herramientas de protección y control',
       referencia:
-        'Hámornik B.P & Krasznay C. (2019) Human Factors Approach to Cybersecurity Teamwork The Military Perspective.',
+        'Hámornik, B. P. & Krasznay, C. (2019). Human Factors Approach to Cybersecurity Teamwork The Military Perspective. Advances in Military Technology. 2(14), p. 291-305.',
       tipo: 'Artículo',
       link:
         'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_virtualprovpro21063',
@@ -185,7 +182,7 @@ export default {
   ],
   glosario: [
     {
-      termino: 'Acelerador SSL/TLS',
+      termino: 'Acelerador <em>SSL/TLS</em>',
       significado:
         '<em>Secure Sockets Layer</em> (SSL) son protocolos criptográficos que se utilizan con certificados de confianza para garantizar que la comunicación en las redes sea segura.',
     },
@@ -268,11 +265,12 @@ export default {
   referencias: [
     {
       referencia:
-        'Banco de la República (2022) Manual de sistemas de pago circular externa operativa y de servicios. DSP -158.',
+        'Banco de la República (2022) <em> Manual de sistemas de pago circular externa operativa y de servicios.</em> DSP -158.',
       link: '',
     },
     {
-      referencia: 'Boronat Pérez, A. (s.f.)  Servidor proxy caché squid.',
+      referencia:
+        'Boronat Pérez, A. (s.f.)  <em> Servidor proxy caché squid.</em>',
       link: '',
     },
     {
@@ -281,7 +279,7 @@ export default {
       link: '',
     },
     {
-      referencia: 'Cisco (s.f.) Manual Cisco MX67W.',
+      referencia: 'Cisco (s.f.) <em> Manual Cisco MX67W.</em>',
       link: '',
     },
     {
@@ -307,11 +305,6 @@ export default {
     {
       referencia:
         'Garzón, J. & Gaviria Valencia, R.  (2015)  Guía práctica para pruebas de pentest basada en la metodología OSSTMM v2.1 y la guía OWASP v3.0',
-      link: '',
-    },
-    {
-      referencia:
-        '<em>Hámornik B.P & Krasznay</em> C. (2019) Human Factors Approach to Cybersecurity Teamwork The Military Perspective. <em>Advances in Military Technology.</em> (14)2 p. 291-305',
       link: '',
     },
     {
@@ -357,11 +350,6 @@ export default {
     },
     {
       referencia:
-        'Perdigón Llanes, R. (2022) Evaluación Del Rendimiento De Cortafuegos Basados En Software Libre.<em>"NOVASINERGIA 5<7em>(1) p. 31-42.',
-      link: '',
-    },
-    {
-      referencia:
         'Satizibal, J. (2020) Manual de usuario carpeta ciudadana digital. Agencia Nacional Digital.',
       link: '',
     },
@@ -374,11 +362,6 @@ export default {
         'Solomon, 2018. Reloj Control FPT MANUAL DE USUARIO TERMINAL FPT Biométrico Reloj Control FPT-153. Recuperado',
       link:
         'https://www.solomon.cl/wp-content/uploads/2019/11/Manual-FPT-153.pdf',
-    },
-    {
-      referencia:
-        'The Economist (2003) Herramientas para la seguridad: de como un paquete de trucos tecnológicos puede mejorar, pero no garantizar, su seguridad. En <em>Gestión de TI.  (p. VI-IX) Nexos. Sociedad, ciencia y literatura S.A.</em> 25 (310)',
-      link: '',
     },
     {
       referencia: 'Trendnet, 2022. TW100-BRV214. Recuperado de',

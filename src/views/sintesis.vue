@@ -5,7 +5,7 @@
   
     .row
       .col-lg-12.mt-5
-        p Como refuerzo a continuación, encontrará la síntesis del componente formativo de una forma gráfica, así podrá repasar las diferentes temáticas tratadas en el mismo.
+        p El siguiente mapa integra los criterios y especificidades de los conocimientos expuestos en el presente componente formativo.
 
     .row.justify-content-center.mt-5
       .col-lg-10.mb-5

@@ -14,20 +14,20 @@
       .col-lg-12
         .bloque-texto-b.color-primario-intro.p-4
           .bloque-texto-b__texto
-            p.mt-5 En este recurso educativo se describen las herramientas para el control de incidentes en ciberseguridad, sin que se profundice en el impacto de estos. De este modo, el enfoque se centrará principalmente en la parametrización de <em>hardware y software</em>, seguridad en sistemas operativos, mecanismos como la criptografía, seguridad perimetral y plataformas de auditorías. Por último, se revisará de forma general la detección de incidentes de seguridad. 
+            p.mt-5 Apreciado aprendiz, bienvenido a este componente formativo, donde se abordará las herramientas para el control de incidentes en ciberseguridad, sin que se profundice en el impacto de estos. De este modo, el enfoque se centrará principalmente en la parametrización de hardware y software, seguridad en sistemas operativos, mecanismos como la criptografía, seguridad perimetral y plataformas de auditorías. Por último, se revisará de forma general la detección de incidentes de seguridad.
       
     .row.justify-content-around.align-items-center.mt-3
       .col-lg-5
         figure
           img(src='@/assets/curso/temas/introduccion/img1_introduccion.svg', alt='Texto que describa la imagen').imagen-decorativa-1  
       .col-lg-7
-          p.mt-5 Lo mencionado es necesario para implementar y controlar las prácticas de seguridad digital en las organizaciones con apoyo de herramientas que logren minimizar los efectos de los incidentes. Las instituciones en la actualidad están expuestas a vulnerabilidades que pueden ocasionar pérdida de información, daños en equipos de la red o suplantación, lo cual puede generar desconfianza, mal funcionamiento o cierre de la entidad. No se puede asegurar que existe una empresa en el mundo con todos sus procesos completamente protegidos. 
+          p.mt-5 Es necesario implementar y controlar las prácticas de seguridad digital en las organizaciones con apoyo de herramientas que logren minimizar los efectos de los incidentes. Las instituciones en la actualidad están expuestas a vulnerabilidades que pueden ocasionar pérdida de información, daños en equipos de la red o suplantación, lo cual puede generar desconfianza, mal funcionamiento o cierre de la entidad. No se puede asegurar que existe una empresa en el mundo con todos sus procesos completamente protegidos.
 
     .row.justify-content-around.align-items-center.mt-3
       .col-lg-12
         .bloque-texto-b.color-primario-intro2.p-4
           .bloque-texto-b__texto
-            p.mt-3 Para iniciar, por favor ver el video introductorio en el que se hace una reseña general de cada uno de los temas a desarrollar en este componente formativo. ¡Muchos éxitos en esta aventura de aprendizaje!
+            p.mt-3 En el siguiente video conocerá, de forma general, la temática que se estudiará a lo largo del componente formativo.
 
     .row.mt-5
       figure

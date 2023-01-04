@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 1
-      h1 Gestión de hardware y software
+      h1 Gestión de #[em hardware] y #[em software]
 
     .row.justify-content-center
       .col-lg-11
@@ -18,7 +18,7 @@
     
     .row.mt-5
       .col-lg-12
-        p Por lo anterior, es importante tener en cuenta las mejores prácticas o procedimientos de seguridad de la información o ciberseguridad, cómo los que se describen a continuación.  
+        p Por lo anterior, es importante tener en cuenta las mejores prácticas o procedimientos de seguridad de la información o ciberseguridad, cómo los que se describen a continuación:
 
     .row.mt-5
       LineaTiempoD.color-acento-botones
@@ -33,8 +33,11 @@
 
         .row(numero="2" titulo="Segundo")
           .col-md-8.mb-4.mb-md-0
-            p.text-small Hacer uso de buenas prácticas descritas en la norma ISO 27000, por ejemplo, revisar constantemente la actividad del antivirus instalado en el equipo; confirmar que esté activo, con las bases de datos actualizada, y en lo posible activar la función de navegador seguro, debido a que se puede instalar una extensión del antivirus al navegador predeterminado y generar las alertas al tratar de acceder a un sitio no seguro. También, revisar la URL de la página a la cual se va a acceder, verificando que cuente con el certificado <em>Secure Sockets Layer</em> (SSL), este constituye una serie de protocolos criptográficos que suministra comunicaciones seguras a través de la red. 
-            p.text-small.mt-3 Para saber si la página cuenta con este, al lado de la URL aparece un ícono de un candado o la URL termina con una ‘s’ (https en lugar de http); además, en aquellos sitios que sugieren crear cuentas para poder acceder, es importante crear contraseñas seguras que sean difíciles de descifrar. Aquí puede encontrar algunas recomendaciones:
+            p.text-small Revisar constantemente la actividad del antivirus instalado en el equipo, y en lo posible activar la función de navegador seguro, debido a que se puede instalar una extensión del antivirus al navegador predeterminado y generar las alertas al tratar de acceder a un sitio no seguro. También, revisar la URL de la página, verificando que cuente con el certificado #[em Secure Sockets Layer] (SSL). 
+              br
+              br
+              |Para saber si la página cuenta con este, al lado de la URL aparece un ícono de un candado o la URL termina con una ‘s’ (https en lugar de http), es importante crear contraseñas seguras que sean difíciles de descifrar. Aquí puede encontrar algunas recomendaciones:
+
             ul.lista-ul--color.mt-3
               li.fas.fa-check
                 p Mínimo 8 caracteres alfanuméricos (a, b,1,4,7…)
@@ -61,8 +64,7 @@
 
     .row.mt-5
       .col-lg-12
-        p Para implementar procedimientos asociados a la seguridad digital son necesarias algunas herramientas.
-        p.mt-5 En el siguiente video se explican con detalle herramientas de <em>hardware</em> y <em>software.</em>
+        p Para implementar procedimientos asociados a la seguridad digital son necesarias algunas herramientas, el siguiente video explicará con precisión herramientas de #[em hardware] y #[em software] .
 
     .row.mt-5
       figure
@@ -83,17 +85,20 @@
       .col-lg-12
         .bloque-texto-b.color-primario-intro.p-4
           .bloque-texto-b__texto
-            p Luego de identificar algunas de las herramientas, es importante conocer también los manuales, cuyo propósito fundamental es lograr parametrizar el <em>hardware y software</em> útil para los sistemas de seguridad informática, desde su configuración inicial, hasta el monitoreo en red, teniendo en cuenta las especificaciones técnicas, estándares y normas de seguridad que ayudarán al uso e implementación de las herramientas sin importar si hay rotación continua de encargados.
-            p.mt-3 En la siguiente tabla se listan las herramientas con el <em>link</em> (direcciones web) de acceso a los manuales de cada herramienta descritas en el video anterior.
+            p Es importante conocer también los manuales, cuyo propósito fundamental es lograr parametrizar el hardware y software útil para los sistemas de seguridad informática, desde su configuración inicial, hasta el monitoreo en red, teniendo en cuenta las especificaciones técnicas, estándares y normas de seguridad que ayudarán al uso e implementación de las herramientas sin importar si hay rotación continua de encargados.
+              br
+              br
+              |A continuación navegar por cada una  podrá navegar por casa una de las direcciones web, de acceso a los manuales de cada herramienta:
 
     .row
       .col-lg-12
         .titulo-sexto.color-acento-contenido.mb-3.mt-5
-          p.mb-0 <b>Tabla 1.</b> <em>Lista de herramientas y manuales técnicos</em>
+          h5 Tabla 1
+          br
+          span.fst-italic Lista de herramientas y manuales técnicos
       .col-lg-12 
         .tabla
           table
-            caption <p> <em>Ref. Creación propia del experto temático con ajustes del Diseñador instruccional </em></p>
             thead
               tr.color1-tabla
                 td <b>Herramientas</b>
@@ -272,18 +277,7 @@
                       p.text-small <b>Enlace Web.</b> https://www.oas.org/es/sms/cicte
                       p.text.small /2016%20Buenas%20
                       p.text.small Practicas%20CSIRT.pdf
-
-    .row.cajon-texto.mt-5
-      .tarjeta.cajon-color.p-3.mb-5
-        .row.justify-content-around.align-items-center
-          .col-3.col-sm-2.col-lg-1
-            img(src="@/assets/curso/temas/tema1/img6_tema1.svg")
-          .col
-            .row.justify-content-between.align-items-center
-              .col.mb-3.mb-sm-0
-                p.text-small Ya se conocen las herramientas y sus características. Es hora de  estudiar los equipos usados para la protección de sistemas.
-             
-    separador
+    Separador
     #t_1_2.titulo-segundo.color-acento-contenido
       h2 1.2  Configuración básica de equipos
 
@@ -293,13 +287,12 @@
           figure
             img(src="@/assets/curso/temas/tema1/img7_tema1.svg", alt="alt").imagen-decorativa-2 
         .col-lg-9
-            p  Los activos de información en una entidad deben ser preservados, y para ello se requiere de protección, ya sea con buenas prácticas de administración o mediante equipos que impidan el acceso no autorizado de usuarios a los repositorios de los mismos. Teniendo en cuenta lo anterior, a continuación, se describe paso a paso la configuración de algunos de los equipos más usados para la protección de los sistemas en las entidades.
+            p  Los activos de información en una entidad deben ser preservados, y para ello se requiere de protección, ya sea con buenas prácticas de administración o mediante equipos que impidan el acceso no autorizado de usuarios a los repositorios de los mismo; teniendo en cuenta esto, a continuación, se describe paso a paso la configuración de algunos de los equipos más usados para la protección de los sistemas en las entidades.
 
     .row.mt-5
       .col-lg-12
         p <b>Llaves U2F</b>
         p.mt-5 Para el uso del <em>token</em> o llave U2F es necesario realizar dos registros y seguir estos pasos:  
-   
     
     .row.justify-content-center.mb-4
       .col-lg-12
@@ -312,7 +305,7 @@
                 ol.lista-ol
                   li 
                     span.text-bold 1. 
-                    p.bg-8.mb-0 Inicie sesión con de google Chrome en una computadora.
+                    p.bg-8.mb-0 Inicie sesión con Google Chrome en una computadora.
                   li 
                     span.text-bold 2. 
                     p.bg-8.mb-0 Haga #[i click] en ‘mi cuenta’ -> ‘inicio de sesión y seguridad’ -> ‘verificación en dos pasos’.
@@ -412,8 +405,7 @@
     .row.mt-5
       .col-lg-12
         p <b>Sistema de pago seguro</b>
-        p.mt-5 Para realizar pagos con datáfono de forma segura, tenga en cuenta:
-   
+        p.mt-5 Los pagos con datáfono siempre serán indispensables, por eso tenga en cuenta como se pueden realizar de manera segura y ágil.
     .row.mt-5
       .col-lg-12.order-2.order-lg-1
         TabsA.color-primario
@@ -423,7 +415,7 @@
                 figure.bg-11
                   img(src="@/assets/curso/temas/tema1/img14_tema1.svg", alt="alt")
               .col-lg-10    
-                   p.bg-10.mb-3 El ingreso al sistema de información se debe realizar a través del portal de aplicaciones SEBRA (que hace parte de la plataforma SEBRA). En este portal, el proceso de autenticación fuerte es de múltiple factor (<em>pin</em> definido por el usuario y <em>token OTP-One Time Password</em>). Luego de completar la autenticación en SEBRA, se habilita a través de este el acceso del usuario hacia el CUD mediante un mecanismo de <em>single-sign-on</em> (SSO).
+                  p.bg-10.mb-3 El ingreso al sistema de información se debe realizar a través del portal de aplicaciones SEBRA (que hace parte de la plataforma SEBRA). En este portal, el proceso de autenticación fuerte es de múltiple factor (<em>pin</em> definido por el usuario y <em>token OTP-One Time Password</em>). Luego de completar la autenticación en SEBRA, se habilita a través de este el acceso del usuario hacia el CUD mediante un mecanismo de <em>single-sign-on</em> (SSO).
           
           .tarjeta.clr--gris.opciones-t8.p-4(titulo="Control de acceso y <br> autorización")
             .row.bg-9
@@ -476,7 +468,7 @@
     .row.mt-5
       .col-lg-12
         p <b>Sensores biométricos</b>
-        p.mt-5 Es el proceso de comparar la huella que lee el equipo con las huellas almacenadas, luego la identificación de la misma o plantilla correspondiente, y, finalmente, la verificación del usuario que la registró. A continuación se describen los tipos de autenticación:
+        p.mt-5 Los sensores biométricos también cobran importancia, en este caso, es el proceso de comparar la huella que lee el equipo con las huellas almacenadas, luego la identificación de la misma o plantilla correspondiente, y, finalmente, la verificación del usuario que la registró. Así se hacen los tipos de autenticación:
 
     .row.justify-content-around.align-items-center.mt-5
       .col-lg-10.bg-7
@@ -509,15 +501,6 @@
                   span Descargar
                   i.fas.fa-file-download
 
-    .row.cajon-texto.mt-5
-      .tarjeta.cajon-color.p-3.mb-5
-        .row.justify-content-around.align-items-center
-          .col-3.col-sm-2.col-lg-1
-            img(src="@/assets/curso/temas/tema1/img22_tema1.svg")
-          .col
-            .row.justify-content-between.align-items-center
-              .col.mb-3.mb-sm-0
-                p.text-small Luego de conocer la configuración básica de algunos equipos es momento de conocer cómo se realiza el monitoreo a los mismos.
 
 
 </template>

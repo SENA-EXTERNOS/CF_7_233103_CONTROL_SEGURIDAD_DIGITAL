@@ -15,7 +15,6 @@
       .col-lg-4
         figure
           img(src='@/assets/curso/temas/tema2/img1_tema2.svg', alt='Texto que describa la imagen').imagen-decorativa-3  
-                 
     .row.justify-content-around.align-items-center.mt-3
       .col-lg-2
         img(src='@/assets/curso/temas/tema2/img2_tema2.svg', alt='Texto que describa la imagen').imagen-decorativa-4
@@ -26,20 +25,9 @@
 
     .row.mt-5
       .col-lg-12
-        p Existen dos tipos de herramientas a tener en cuenta:  
+        p Se conocen dos tipos de herramientas que se deben tener en cuenta:
       .col-lg-12
         img(src='@/assets/curso/temas/tema2/img3_tema2.png', alt='Texto que describa la imagen')
-
-    .row.cajon-texto.mt-5
-      .tarjeta.cajon-color.p-3.mb-5
-        .row.justify-content-around.align-items-center
-          .col-3.col-sm-2.col-lg-1
-            img(src="@/assets/curso/temas/tema2/img4_tema2.svg")
-          .col
-            .row.justify-content-between.align-items-center
-              .col.mb-3.mb-sm-0
-                p.text-small Para conocer con detalle los tiempos de herramientas, a continuación, se realiza una descripción.      
-    
     separador
     #t_2_1.titulo-segundo.color-acento-contenido
       h2 2.1  Herramientas de monitoreo y gestión
@@ -49,13 +37,14 @@
         figure(data-aos="zoom-in")
           img(src='@/assets/curso/temas/tema2/img5_tema2.png', alt='Texto que describa la imagen').imagen-full-tema-1
       .col-lg-8
-        p(data-aos="fade-down") Se debe empezar por definir el monitoreo y gestión en red como la acción que permite aumentar la seguridad, proporcionando información que todas las áreas de Tecnología de la Información, TI, requieren para asegurar un óptimo funcionamiento y aplicar gestión o toma de decisiones precisas en caso de presentar ataques o intentos de acceso no autorizados. Para ello, es indispensable la aplicación o ejecución de herramientas y <em>software</em> que detecten deficiencias o necesidades para ser abordadas de manera preventiva y no correctiva, de tal forma que se pueda mantener a salvo la información.
+        p(data-aos="fade-down") El monitoreo y gestión en red es la acción que permite aumentar la seguridad, proporcionando información que todas las áreas de Tecnología de la Información, TI,  se requieren para asegurar un óptimo funcionamiento y aplicar gestión o toma de decisiones precisas en caso de presentar ataques o intentos de acceso no autorizados. Para ello, es indispensable la aplicación o ejecución de herramientas y #[em software] que detecten deficiencias o necesidades para ser abordadas de manera preventiva y no correctiva, de tal forma que se pueda mantener a salvo la información.
  
     .row
       .col-lg-12.mt-5
-        p A continuación, se presentan las herramientas de monitoreo de red que actualmente son más efectivas y que tienen un papel protagónico al momento de medir la integridad en la infraestructura TI. 
-      .col-lg-12 
-        p La información descrita se tomó con referencia en la página oficial de <em>SolarWinds (s.f.)</em> 
+        p Explore las herramientas de monitoreo de red que actualmente son más efectivas y que tienen un papel protagónico al momento de medir la integridad en la infraestructura TI. 
+          br
+          br
+          |La información descrita se tomó con referencia en la página oficial de #[em SolarWinds.]
 
     .row.mt-5
       TabsB.color-acento-contenido
@@ -125,15 +114,6 @@
                   i.fas.fa-check
                   p.mb-0 Visualiza y asigna las relaciones basadas en comunicaciones dinámicas entre aplicaciones y servidores para detectar problemas de red que disminuyen la velocidad de tus aplicaciones.
 
-    .row.cajon-texto.mt-5
-      .tarjeta.cajon-color.p-3.mb-5
-        .row.justify-content-around.align-items-center
-          .col-3.col-sm-2.col-lg-1
-            img(src="@/assets/curso/temas/tema2/img6_tema2.svg")
-          .col
-            .row.justify-content-between.align-items-center
-              .col.mb-3.mb-sm-0
-                p.text-small Es momento de pasar a las herramientas de protección y control.
 
     separador
     #t_2_2.titulo-segundo.color-acento-contenido
@@ -218,15 +198,6 @@
             .col-md-8.mb-4.mb-md-0
               p Sistema que actúa como intermediario entre usuarios y aplicaciones web, que se rigen por un conjunto de reglas previamente definidas. Acción: controlar las comunicaciones HTTP (solicitud-respuesta) y analizarlas antes de conectar con los usuarios o aplicaciones externas. <em>(Microsoft Ignite, s.f.)</em>
 
-    .row.cajon-texto.mt-5
-      .tarjeta.cajon-color.p-3.mb-5
-        .row.justify-content-around.align-items-center
-          .col-3.col-sm-2.col-lg-1
-            img(src="@/assets/curso/temas/tema2/img16_tema2.png")
-          .col
-            .row.justify-content-between.align-items-center
-              .col.mb-3.mb-sm-0
-                p.text-small Ya se estudiaron las herramientas, es hora de conocer cómo gestionarlas y dar respuestas a los incidentes asociados a riesgos y amenazas en contra de los datos e información de la organización.  
 
 
 
