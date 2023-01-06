@@ -26,7 +26,7 @@
         ImagenInfografica.color-primario
           template(v-slot:imagen)
             figure
-              img(src='@/assets/curso/temas/tema3/img2_tema3.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema3/c1.svg', alt='Texto que describa la imagen')
 
           .tarjeta.color-primario.p-3(x="53%" y="25%" numero="")
             .h5.mb-2 Monitorear y verificar:
@@ -43,21 +43,19 @@
           .tarjeta.color-primario.p-3(x="84%" y="74%" numero="")
             .h5.mb-2 Clasificación de los ataques:
             p Clasificación de los ataques: clasificar los ataques de acuerdo a su gravedad
-            ul
+            ul.lista-ul--color
               li
                 i.fas.fa-check
-                | Gravedad 1: incidente crítico con elevada repercusión.
+                |  Gravedad 1: incidente crítico con elevada repercusión.
               li
                 i.fas.fa-check
                 | Gravedad 2: incidente grave con considerable repercusión. 
               li
                 i.fas.fa-check
                 | Gravedad 3: incidente leve de baja repercusión.
- 
           .tarjeta.color-primario.p-3(x="66%" y="89%" numero="")
             .h5.mb-2 Documentar las incidencias:
             p Se deben documentar los incidentes a través de un lenguaje que toda la organización pueda comprender.
- 
           .tarjeta.color-primario.p-3(x="42%" y="89%" numero="")
             .h5.mb-2 Informar a los clientes:
             p Comunicarse con los clientes ante cualquier eventualidad de riesgo.
@@ -207,7 +205,7 @@
     .row.mb-3
       .col-lg-12
         .titulo-sexto.color-acento-contenido.mb-3
-          h5 Tabla 2.
+          h5 Tabla 2
           br
           span.fst-italic Controles de seguridad y privacidad de la información
 
@@ -343,7 +341,7 @@
     .row.mb-3
       .col-lg-12
         .titulo-sexto.color-acento-contenido.mb-3
-          h5 Tabla 3.
+          h5 Tabla 3
           br
           span.fst-italic Pasos para diseñar una cadena de custodia
 
@@ -403,7 +401,7 @@
     .row.mb-3
       .col-lg-12
         .titulo-sexto.color-acento-contenido.mb-3
-          h5 Tabla 4.
+          h5 Tabla 4
           br
           span.fst-italic Clasificación de incidentes y/o eventos de seguridad
 

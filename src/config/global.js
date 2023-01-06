@@ -265,111 +265,109 @@ export default {
   referencias: [
     {
       referencia:
-        'Banco de la República (2022) <em> Manual de sistemas de pago circular externa operativa y de servicios.</em> DSP -158.',
+        'Banco de la República. (2022). <em> Manual de sistemas de pago circular externa operativa y de servicios</em>. DSP -158.  ',
       link: '',
     },
     {
       referencia:
-        'Boronat Pérez, A. (s.f.)  <em> Servidor proxy caché squid.</em>',
+        'Boronat Pérez, A. (s.f.).  <em> Servidor proxy caché squid.</em>',
       link: '',
     },
     {
       referencia:
-        'Cárdenas, A., Galvis, A., Ospina J. y Perez, R. (s.f.) <em>Manual de Usuario de Pfsense Firewall. Sense FreeBSD</em>',
+        'Cárdenas, A., Galvis, A., Ospina J. y Pérez, R. (s.f.). <em> Manual de Usuario de Pfsense Firewall.</em> Sense FreeBSD',
       link: '',
     },
     {
-      referencia: 'Cisco (s.f.) <em> Manual Cisco MX67W.</em>',
-      link: '',
-    },
-    {
-      referencia:
-        'Chicano Tejada, E. (2014). <em>Gestión de incidentes de seguridad informática.</em> IC Editorial',
+      referencia: 'Cisco. (s.f.). <em> Manual Cisco MX67W.</em> ',
       link: '',
     },
     {
       referencia:
-        'Departamento Administrativo de Función Pública -DAFP (2020) Guía para gestionar incidentes de seguridad de la información. Proceso de Tecnologías de la Información.',
+        'Departamento Administrativo de Función Pública -DAFP. (2020). <em>Guía para gestionar incidentes de seguridad de la información.</em> Proceso de Tecnologías de la Información.',
       link: '',
     },
     {
       referencia:
-        'EFirma (2016) Guía de uso. Administración de Token ME Bit4id - PKI Manager.',
+        'Efirma. (2016). <em> Guía de uso. Administración de Token ME Bit4id - PKI Manager.</em> ',
       link: '',
     },
     {
       referencia:
-        'Esentire (s.f.)  The Definitive Guide to Managed Detection and Response (MDR).',
+        'Esentire. (s.f.).  <em>The Definitive Guide to Managed Detection and Response (MDR).</em> ',
       link: '',
     },
     {
       referencia:
-        'Garzón, J. & Gaviria Valencia, R.  (2015)  Guía práctica para pruebas de pentest basada en la metodología OSSTMM v2.1 y la guía OWASP v3.0',
+        'Garzón, J. & Gaviria Valencia, R.  (2015).  <em> Guía práctica para pruebas de pentest basada en la metodología OSSTMM v2.1 y la guía OWASP v3.0</em> ',
       link: '',
     },
     {
       referencia:
-        'Hapag-Lloyd (s.f.) Manual de la llave de seguridad ePass FIDO-NFC MultiPass.',
+        'Hapag-Lloyd. (s.f.). <em> Manual de la llave de seguridad ePass FIDO-NFC MultiPass.</em>',
       link:
         'https://manuals.plus/es/feitian/epass-fido-nfc-multipass-security-key-manual#user_manual',
     },
     {
       referencia:
-        'Kaspersky (2020) Kaspersky Endpoint Security para Windows. AO Kaspersky Lab',
+        'Kaspersky. (2020). <em>Kaspersky Endpoint Security para Windows. AO Kaspersky Lab</em>',
       link: '',
     },
     {
-      referencia: 'Kaspersky (s.f.) Ransomware: los ataques más resonantes.',
+      referencia:
+        'Kaspersky. (s.f.). <em> Ransomware: los ataques más resonantes.</em>',
       link:
         'https://latam.kaspersky.com/resource-center/threats/top-ransomware-2020',
     },
     {
-      referencia: 'Kensington (s.f.) Kensington Combination Laptop Lock manual',
+      referencia:
+        'Kensington. (s.f.). <em>Kensington Combination Laptop Lock manual.</em>',
       link: '',
     },
     {
       referencia:
-        'Kingston (s.f.). Unidad con autocifrado basada en hardware con NAND TLC 3D.',
+        'Kingston. (s.f.). <em> Unidad con autocifrado basada en hardware con NAND TLC 3D.</em>',
       link: '',
     },
     {
       referencia:
-        'Microsoft Ignite (s.f.) Servidor de red de Microsoft SMB v1: firmar digitalmente las comunicaciones (siempre).',
+        'Microsoft Ignite. (s.f.). <em> Servidor de red de Microsoft SMB v1: firmar digitalmente las comunicaciones (siempre)</em>',
       link:
-        'https://learn.microsoft.com/es-es/windows/security/threat-protection/security-policy-settings/smbv1-microsoft-network-server-digitally-sign-communications-always',
+        'https://learn.microsoft.com/es-es/windows/security/threat-protection/security-policy-settings/smbv1-microsoft-network-server-digitally-sign-communications-always ',
     },
     {
       referencia:
-        'Ministerio de Tecnologías de la Información y las Comunicaciones – MinTic (2022) Guía No 8. Controles de Seguridad y Privacidad de la Información',
+        'Ministerio de Tecnologías de la Información y las Comunicaciones – MinTic. (2022). <em> Guía No 8. Controles de Seguridad y Privacidad de la Información.</em>',
       link: '',
     },
     {
       referencia:
-        'Organización de Estados Americanos -OEA (2016) Buenas Prácticas para establecer un CSIRT nacional.',
+        'Organización de Estados Americanos -OEA. (2016). <em> Buenas Prácticas para establecer un CSIRT nacional.</em>',
       link: '',
     },
     {
       referencia:
-        'Satizibal, J. (2020) Manual de usuario carpeta ciudadana digital. Agencia Nacional Digital.',
+        'Satizibal, J. (2020). <em> Manual de usuario carpeta ciudadana digital. Agencia Nacional Digital.</em>',
       link: '',
     },
     {
-      referencia: 'SolarWinds, (s.f.) Innovar la TI',
+      referencia: 'SolarWinds, (s.f.). <em> Innovar la TI</em>.',
       link: 'https://www.solarwinds.com/es/',
     },
     {
       referencia:
-        'Solomon, 2018. Reloj Control FPT MANUAL DE USUARIO TERMINAL FPT Biométrico Reloj Control FPT-153. Recuperado',
+        'Solomon. (2018). <em> Reloj Control FPT MANUAL DE USUARIO TERMINAL FPT Biométrico Reloj Control FPT-153.</em>',
       link:
         'https://www.solomon.cl/wp-content/uploads/2019/11/Manual-FPT-153.pdf',
     },
     {
-      referencia: 'Trendnet, 2022. TW100-BRV214. Recuperado de',
+      referencia: 'Trendnet. (2022). <em> TW100-BRV214</em>',
       link:
         'http://downloads.trendnet.com/TW100-BRV214/manual/SP_Web_TW100-BRV214(1.01).pdf',
     },
     {
-      referencia: 'Zoller, T (s.f.)  SSL Audit – TLS / SSL Scanner. G-SEC',
+      referencia:
+        'Zoller, T. (s.f.).  <em> SSL Audit – TLS / SSL Scanner. G-SEC.</em>',
       link: '',
     },
   ],

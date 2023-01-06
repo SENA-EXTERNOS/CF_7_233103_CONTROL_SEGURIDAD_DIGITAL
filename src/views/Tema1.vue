@@ -40,15 +40,15 @@
 
             ul.lista-ul--color.mt-3
               li.fas.fa-check
-                p Mínimo 8 caracteres alfanuméricos (a, b,1,4,7…)
+                p.ms-3 Mínimo 8 caracteres alfanuméricos (a, b,1,4,7…)
               li.fas.fa-check
-                p Que contenga mínimo una letra en mayúscula (A, B, C, …Z).
+                p.ms-3 Que contenga mínimo una letra en mayúscula (A, B, C, …Z).
               li.fas.fa-check
-                p Que contenga mínimo una letra en minúscula (a, b, c, z)
+                p.ms-3 Que contenga mínimo una letra en minúscula (a, b, c, z)
               li.fas.fa-check
-                p Que contenga mínimo un número (0,1, 2, 3…9).
+                p.ms-3 Que contenga mínimo un número (0,1, 2, 3…9).
               li.fas.fa-check
-                p Que contenga mínimo un carácter especial (¡°|#$%&/()=?¡*+}{}[[.,-…).
+                p.ms-3 Que contenga mínimo un carácter especial (¡°|#$%&/()=?¡*+}{}[[.,-…).
 
           .col-md-4
             figure
@@ -88,7 +88,7 @@
             p Es importante conocer también los manuales, cuyo propósito fundamental es lograr parametrizar el hardware y software útil para los sistemas de seguridad informática, desde su configuración inicial, hasta el monitoreo en red, teniendo en cuenta las especificaciones técnicas, estándares y normas de seguridad que ayudarán al uso e implementación de las herramientas sin importar si hay rotación continua de encargados.
               br
               br
-              |A continuación navegar por cada una  podrá navegar por casa una de las direcciones web, de acceso a los manuales de cada herramienta:
+              |A continuación, en la siguiente tabla, encontrará los manuales de cada herramienta. Lo invitamos a navegar por cada una de ellas.
 
     .row
       .col-lg-12
