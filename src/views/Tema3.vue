@@ -23,24 +23,24 @@
 
     .row.justify-content-around.align-items-center.mb-5
       .col-lg-10
-        ImagenInfografica.color-primario
+        ImagenInfografica.color-acento-botones
           template(v-slot:imagen)
             figure
               img(src='@/assets/curso/temas/tema3/c1.svg', alt='Texto que describa la imagen')
 
-          .tarjeta.color-primario.p-3(x="53%" y="25%" numero="")
+          .tarjeta.color-primario.p-3(x="50%" y="25%" numero="")
             .h5.mb-2 Monitorear y verificar:
             p Realizar monitoreo y verificación de los elementos de control con el fin de detectar un posible incidente de seguridad de la información.
 
-          .tarjeta.color-primario.p-3(x="75%" y="32%" numero="")
+          .tarjeta.color-primario.p-3(x="67%" y="30%" numero="")
             .h5.mb-2 Copias de seguridad:
             p Generar copias de seguridad de los tipos incremental, diferencial y total.
 
-          .tarjeta.color-primario.p-3(x="87%" y="51%" numero="")
+          .tarjeta.color-primario.p-3(x="74%" y="51%" numero="")
             .h5.mb-2 Plataformas de auditorías de <em>logs</em>:
             p Implementar plataformas de auditorías de <em>logs</em> nist sp 800-92, correlacionadores de eventos, revisión de patrones de ataque, metodologías, revisión de archivos de <em>logs</em>.    
  
-          .tarjeta.color-primario.p-3(x="84%" y="74%" numero="")
+          .tarjeta.color-primario.p-3(x="72%" y="75%" numero="")
             .h5.mb-2 Clasificación de los ataques:
             p Clasificación de los ataques: clasificar los ataques de acuerdo a su gravedad
             ul.lista-ul--color
@@ -53,22 +53,22 @@
               li
                 i.fas.fa-check
                 | Gravedad 3: incidente leve de baja repercusión.
-          .tarjeta.color-primario.p-3(x="66%" y="89%" numero="")
+          .tarjeta.color-primario.p-3(x="60%" y="92%" numero="")
             .h5.mb-2 Documentar las incidencias:
             p Se deben documentar los incidentes a través de un lenguaje que toda la organización pueda comprender.
-          .tarjeta.color-primario.p-3(x="42%" y="89%" numero="")
+          .tarjeta.color-primario.p-3(x="42.7%" y="92%" numero="")
             .h5.mb-2 Informar a los clientes:
             p Comunicarse con los clientes ante cualquier eventualidad de riesgo.
 
-          .tarjeta.color-primario.p-3(x="22%" y="75%" numero="")
+          .tarjeta.color-primario.p-3(x="29.5%" y="77%" numero="")
             .h5.mb-2 Notificar a tiempo:
             p Entregar información real y transparente a los clientes que han sido vulnerados. 
 
-          .tarjeta.color-primario.p-3(x="18%" y="52%" numero="")
+          .tarjeta.color-primario.p-3(x="26.5%" y="52%" numero="")
             .h5.mb-2 Marco de trabajo:
             p Establecer un manual de trabajo con funciones definidas para dar respuesta a incidentes generados.           
        
-          .tarjeta.color-primario.p-3(x="29%" y="32%" numero="")
+          .tarjeta.color-primario.p-3(x="34%" y="30%" numero="")
             .h5.mb-2 Solución de incidentes:
             p Resolver el incidente y comunicar las acciones tomadas y los niveles de gravedad al que fue expuesta la información.
 
