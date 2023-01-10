@@ -315,25 +315,25 @@
     .row.mb-5
       .bloque-texto.bg-4
         .row
-          .col-4
-            figure
-              img(src="@/assets/curso/temas/tema3/img14_tema3.png").imagen-full-tema-1
+          .col-4.p-0
+              img(src="@/assets/curso/temas/tema3/img14_tema3.png" style='height: 100%')
           .col-8
-            p 
-              ul.lista-ul--color.mb-3
-                li
-                  i.fas.fa-check
-                  | Identificación, registro y clasificación.
-                li
-                  i.fas.fa-check
-                  | Control y restauración.
-                li       
-                  i.fas.fa-check   
-                  | Erradicación, análisis e investigación.
-                li
-                  i.fas.fa-check            
-                  | Cierre y activación.
- 
+            .p-3
+              p 
+                ul.lista-ul--color.mb-3
+                  li
+                    i.fas.fa-check
+                    | Identificación, registro y clasificación.
+                  li
+                    i.fas.fa-check
+                    | Control y restauración.
+                  li       
+                    i.fas.fa-check   
+                    | Erradicación, análisis e investigación.
+                  li
+                    i.fas.fa-check            
+                    | Cierre y activación.
+  
     .row.mb-5
       .col-lg-12
         p En la Tabla 3 se detalla cómo actúa en cada paso la cadena de custodia. 
@@ -384,15 +384,15 @@
               p 
               ul.lista-ul--color.mb-3
                 li.fas.fa-check
-                  <p>Profesionales con amplio conocimiento en <em>hardware, software</em> y/o redes.</p>
+                  p.ms-3 Profesionales con amplio conocimiento en <em>hardware, software</em> y/o redes.
                 li.fas.fa-check
-                  <p>Profesionales de Bases de Datos.</p> 
+                  p.ms-3 Profesionales de Bases de Datos. 
                 li.fas.fa-check          
-                  <p>Líderes de sistemas de información.</p>
+                  p.ms-3 Líderes de sistemas de información.
                 li.fas.fa-check          
-                  <p>Representantes misionales.</p>
+                  p.ms-3 Representantes misionales.
                 li.fas.fa-check          
-                  <p>Representantes del área directiva de la Entidad.</p>                  
+                  p.ms-3 Representantes del área directiva de la Entidad.                  
 
     .row.mb-5
       .col-lg-12
