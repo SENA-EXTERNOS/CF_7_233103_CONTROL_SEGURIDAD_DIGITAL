@@ -38,7 +38,7 @@
               br
               |Para saber si la página cuenta con este, al lado de la URL aparece un ícono de un candado o la URL termina con una ‘s’ (https en lugar de http), es importante crear contraseñas seguras que sean difíciles de descifrar. Aquí puede encontrar algunas recomendaciones:
 
-            ul.lista-ul--color.mt-3
+            ul.lista-ul--color.mt-3.text-small
               li.fas.fa-check
                 p.ms-3 Mínimo 8 caracteres alfanuméricos (a, b,1,4,7…)
               li.fas.fa-check
